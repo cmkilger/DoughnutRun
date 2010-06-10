@@ -17,6 +17,10 @@
 		7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311111C1ADB700435FA4 /* thepitapit.pdf */; };
 		7205311B11C1ADB700435FA4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 7205311211C1ADB700435FA4 /* restaurants.json */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
+		9A69D86B11C1B14D008F40FA /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86411C1B14D008F40FA /* Extra.m */; };
+		9A69D86C11C1B14D008F40FA /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86611C1B14D008F40FA /* Restaurant.m */; };
+		9A69D86D11C1B14D008F40FA /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86811C1B14D008F40FA /* MenuItem.m */; };
+		9A69D86E11C1B14D008F40FA /* MenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86A11C1B14D008F40FA /* MenuSection.m */; };
 		9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7511C1A6AA006C7F8C /* UIKit.framework */; };
 		9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7711C1A6AA006C7F8C /* Foundation.framework */; };
 		9AE24F7A11C1A6AA006C7F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7911C1A6AA006C7F8C /* CoreGraphics.framework */; };
@@ -38,6 +42,14 @@
 		7205311111C1ADB700435FA4 /* thepitapit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thepitapit.pdf; sourceTree = "<group>"; };
 		7205311211C1ADB700435FA4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restaurants.json; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
+		9A69D86311C1B14D008F40FA /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
+		9A69D86411C1B14D008F40FA /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extra.m; sourceTree = "<group>"; };
+		9A69D86511C1B14D008F40FA /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		9A69D86611C1B14D008F40FA /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		9A69D86711C1B14D008F40FA /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		9A69D86811C1B14D008F40FA /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		9A69D86911C1B14D008F40FA /* MenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuSection.h; sourceTree = "<group>"; };
+		9A69D86A11C1B14D008F40FA /* MenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuSection.m; sourceTree = "<group>"; };
 		9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoughnutRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24F7511C1A6AA006C7F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AE24F7711C1A6AA006C7F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +101,21 @@
 			path = menu;
 			sourceTree = "<group>";
 		};
+		9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A69D86311C1B14D008F40FA /* Extra.h */,
+				9A69D86411C1B14D008F40FA /* Extra.m */,
+				9A69D86511C1B14D008F40FA /* Restaurant.h */,
+				9A69D86611C1B14D008F40FA /* Restaurant.m */,
+				9A69D86711C1B14D008F40FA /* MenuItem.h */,
+				9A69D86811C1B14D008F40FA /* MenuItem.m */,
+				9A69D86911C1B14D008F40FA /* MenuSection.h */,
+				9A69D86A11C1B14D008F40FA /* MenuSection.m */,
+			);
+			name = "Data Model Classes";
+			sourceTree = "<group>";
+		};
 		9AE24F6211C1A6AA006C7F8C = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +141,7 @@
 			children = (
 				9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */,
 				9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */,
+				9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -226,6 +254,10 @@
 				9AE24F8311C1A6AA006C7F8C /* main.m in Sources */,
 				9AE24F8611C1A6AA006C7F8C /* DoughnutRunAppDelegate.m in Sources */,
 				9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */,
+				9A69D86B11C1B14D008F40FA /* Extra.m in Sources */,
+				9A69D86C11C1B14D008F40FA /* Restaurant.m in Sources */,
+				9A69D86D11C1B14D008F40FA /* MenuItem.m in Sources */,
+				9A69D86E11C1B14D008F40FA /* MenuSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
