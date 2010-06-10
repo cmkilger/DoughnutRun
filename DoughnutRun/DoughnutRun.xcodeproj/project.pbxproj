@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
+		9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7511C1A6AA006C7F8C /* UIKit.framework */; };
+		9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7711C1A6AA006C7F8C /* Foundation.framework */; };
+		9AE24F7A11C1A6AA006C7F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7911C1A6AA006C7F8C /* CoreGraphics.framework */; };
+		9AE24F7C11C1A6AA006C7F8C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7B11C1A6AA006C7F8C /* CoreData.framework */; };
+		9AE24F8111C1A6AA006C7F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */; };
+		9AE24F8311C1A6AA006C7F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE24F8211C1A6AA006C7F8C /* main.m */; };
+		9AE24F8611C1A6AA006C7F8C /* DoughnutRunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */; };
+		9AE24F8B11C1A6AB006C7F8C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
+		9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoughnutRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE24F7511C1A6AA006C7F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AE24F7711C1A6AA006C7F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AE24F7911C1A6AA006C7F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AE24F7B11C1A6AA006C7F8C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoughnutRun-Info.plist"; sourceTree = "<group>"; };
+		9AE24F7E11C1A6AA006C7F8C /* DoughnutRun_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoughnutRun_Prefix.pch; sourceTree = "<group>"; };
+		9AE24F8011C1A6AA006C7F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AE24F8211C1A6AA006C7F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoughnutRunAppDelegate.h; sourceTree = "<group>"; };
+		9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoughnutRunAppDelegate.m; sourceTree = "<group>"; };
+		9AE24F8A11C1A6AB006C7F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE24F6F11C1A6AA006C7F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */,
+				9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */,
+				9AE24F7A11C1A6AA006C7F8C /* CoreGraphics.framework in Frameworks */,
+				9AE24F7C11C1A6AA006C7F8C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE24F6211C1A6AA006C7F8C = {
+			isa = PBXGroup;
+			children = (
+				9AE24F6911C1A6AA006C7F8C /* Models */,
+				9AE24F6A11C1A6AA006C7F8C /* Classes */,
+				9AE24F6B11C1A6AA006C7F8C /* Other Sources */,
+				9AE24F6C11C1A6AA006C7F8C /* Resources */,
+				9AE24F6D11C1A6AA006C7F8C /* Frameworks */,
+				9AE24F7311C1A6AA006C7F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE24F6911C1A6AA006C7F8C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9AE24F6A11C1A6AA006C7F8C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */,
+				9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9AE24F6B11C1A6AA006C7F8C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9AE24F7E11C1A6AA006C7F8C /* DoughnutRun_Prefix.pch */,
+				9AE24F8211C1A6AA006C7F8C /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		9AE24F6C11C1A6AA006C7F8C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */,
+				9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */,
+				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9AE24F6D11C1A6AA006C7F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AE24F7511C1A6AA006C7F8C /* UIKit.framework */,
+				9AE24F7711C1A6AA006C7F8C /* Foundation.framework */,
+				9AE24F7911C1A6AA006C7F8C /* CoreGraphics.framework */,
+				9AE24F7B11C1A6AA006C7F8C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AE24F7311C1A6AA006C7F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE24F7111C1A6AA006C7F8C /* DoughnutRun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE24F8E11C1A6AB006C7F8C /* Build configuration list for PBXNativeTarget "DoughnutRun" */;
+			buildPhases = (
+				9AE24F6E11C1A6AA006C7F8C /* Sources */,
+				9AE24F6F11C1A6AA006C7F8C /* Frameworks */,
+				9AE24F7011C1A6AA006C7F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoughnutRun;
+			productName = DoughnutRun;
+			productReference = 9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE24F6411C1A6AA006C7F8C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9AE24F6711C1A6AA006C7F8C /* Build configuration list for PBXProject "DoughnutRun" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 9AE24F6211C1A6AA006C7F8C;
+			productRefGroup = 9AE24F7311C1A6AA006C7F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE24F7111C1A6AA006C7F8C /* DoughnutRun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE24F7011C1A6AA006C7F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE24F8111C1A6AA006C7F8C /* InfoPlist.strings in Resources */,
+				9AE24F8B11C1A6AB006C7F8C /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE24F6E11C1A6AA006C7F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE24F8311C1A6AA006C7F8C /* main.m in Sources */,
+				9AE24F8611C1A6AA006C7F8C /* DoughnutRunAppDelegate.m in Sources */,
+				9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE24F8011C1A6AA006C7F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE24F8A11C1A6AB006C7F8C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE24F8C11C1A6AB006C7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9AE24F8D11C1A6AB006C7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		9AE24F8F11C1A6AB006C7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DoughnutRun_Prefix.pch;
+				INFOPLIST_FILE = "DoughnutRun-Info.plist";
+				PRODUCT_NAME = DoughnutRun;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AE24F9011C1A6AB006C7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DoughnutRun_Prefix.pch;
+				INFOPLIST_FILE = "DoughnutRun-Info.plist";
+				PRODUCT_NAME = DoughnutRun;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE24F6711C1A6AA006C7F8C /* Build configuration list for PBXProject "DoughnutRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE24F8C11C1A6AB006C7F8C /* Debug */,
+				9AE24F8D11C1A6AB006C7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE24F8E11C1A6AB006C7F8C /* Build configuration list for PBXNativeTarget "DoughnutRun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE24F8F11C1A6AB006C7F8C /* Debug */,
+				9AE24F9011C1A6AB006C7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE24F6411C1A6AA006C7F8C /* Project object */;
+}
