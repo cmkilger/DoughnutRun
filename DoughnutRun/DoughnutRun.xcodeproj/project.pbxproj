@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7205311311C1ADB700435FA4 /* gandolfos.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205310911C1ADB700435FA4 /* gandolfos.png */; };
+		7205311411C1ADB700435FA4 /* gurus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205310A11C1ADB700435FA4 /* gurus.png */; };
+		7205311511C1ADB700435FA4 /* reddeli.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205310B11C1ADB700435FA4 /* reddeli.png */; };
+		7205311611C1ADB700435FA4 /* thepitapit.png in Resources */ = {isa = PBXBuildFile; fileRef = 7205310C11C1ADB700435FA4 /* thepitapit.png */; };
+		7205311711C1ADB700435FA4 /* gandolfos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205310E11C1ADB700435FA4 /* gandolfos.pdf */; };
+		7205311811C1ADB700435FA4 /* gurus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205310F11C1ADB700435FA4 /* gurus.pdf */; };
+		7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311011C1ADB700435FA4 /* reddeli.pdf */; };
+		7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311111C1ADB700435FA4 /* thepitapit.pdf */; };
+		7205311B11C1ADB700435FA4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 7205311211C1ADB700435FA4 /* restaurants.json */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
 		9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7511C1A6AA006C7F8C /* UIKit.framework */; };
 		9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7711C1A6AA006C7F8C /* Foundation.framework */; };
@@ -19,6 +28,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7205310911C1ADB700435FA4 /* gandolfos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gandolfos.png; sourceTree = "<group>"; };
+		7205310A11C1ADB700435FA4 /* gurus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gurus.png; sourceTree = "<group>"; };
+		7205310B11C1ADB700435FA4 /* reddeli.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reddeli.png; sourceTree = "<group>"; };
+		7205310C11C1ADB700435FA4 /* thepitapit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thepitapit.png; sourceTree = "<group>"; };
+		7205310E11C1ADB700435FA4 /* gandolfos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gandolfos.pdf; sourceTree = "<group>"; };
+		7205310F11C1ADB700435FA4 /* gurus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = gurus.pdf; sourceTree = "<group>"; };
+		7205311011C1ADB700435FA4 /* reddeli.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reddeli.pdf; sourceTree = "<group>"; };
+		7205311111C1ADB700435FA4 /* thepitapit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thepitapit.pdf; sourceTree = "<group>"; };
+		7205311211C1ADB700435FA4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restaurants.json; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
 		9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoughnutRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24F7511C1A6AA006C7F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -49,6 +67,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7205310811C1ADB700435FA4 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				7205310911C1ADB700435FA4 /* gandolfos.png */,
+				7205310A11C1ADB700435FA4 /* gurus.png */,
+				7205310B11C1ADB700435FA4 /* reddeli.png */,
+				7205310C11C1ADB700435FA4 /* thepitapit.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		7205310D11C1ADB700435FA4 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				7205310E11C1ADB700435FA4 /* gandolfos.pdf */,
+				7205310F11C1ADB700435FA4 /* gurus.pdf */,
+				7205311011C1ADB700435FA4 /* reddeli.pdf */,
+				7205311111C1ADB700435FA4 /* thepitapit.pdf */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
 		9AE24F6211C1A6AA006C7F8C = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +130,9 @@
 		9AE24F6C11C1A6AA006C7F8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7205310811C1ADB700435FA4 /* image */,
+				7205310D11C1ADB700435FA4 /* menu */,
+				7205311211C1ADB700435FA4 /* restaurants.json */,
 				9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */,
 				9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */,
 				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
@@ -161,6 +204,15 @@
 			files = (
 				9AE24F8111C1A6AA006C7F8C /* InfoPlist.strings in Resources */,
 				9AE24F8B11C1A6AB006C7F8C /* MainWindow.xib in Resources */,
+				7205311311C1ADB700435FA4 /* gandolfos.png in Resources */,
+				7205311411C1ADB700435FA4 /* gurus.png in Resources */,
+				7205311511C1ADB700435FA4 /* reddeli.png in Resources */,
+				7205311611C1ADB700435FA4 /* thepitapit.png in Resources */,
+				7205311711C1ADB700435FA4 /* gandolfos.pdf in Resources */,
+				7205311811C1ADB700435FA4 /* gurus.pdf in Resources */,
+				7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */,
+				7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */,
+				7205311B11C1ADB700435FA4 /* restaurants.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
