@@ -31,9 +31,9 @@
 	};
 	78BDDB2611C1B48D00FF833E /* DRDataManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 2093}}";
-			sepNavSelRange = "{219, 30}";
-			sepNavVisRange = "{0, 2102}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 2041}}";
+			sepNavSelRange = "{425, 0}";
+			sepNavVisRange = "{0, 2759}";
 		};
 	};
 	78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */ = {
@@ -519,6 +519,16 @@
 		vrLen = 2102;
 		vrLoc = 0;
 	};
+	9AE1362111C207F2000D9275 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2611C1B48D00FF833E /* DRDataManager.m */;
+		name = "DRDataManager.m: 20";
+		rLen = 0;
+		rLoc = 425;
+		rType = 0;
+		vrLen = 2759;
+		vrLoc = 0;
+	};
 	9AE24F6411C1A6AA006C7F8C /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9AE24F7411C1A6AA006C7F8C /* DoughnutRun */;
@@ -605,6 +615,7 @@
 			9AE1360E11C2052C000D9275 /* PBXTextBookmark */ = 9AE1360E11C2052C000D9275 /* PBXTextBookmark */;
 			9AE1360F11C2052C000D9275 /* PBXTextBookmark */ = 9AE1360F11C2052C000D9275 /* PBXTextBookmark */;
 			9AE1361011C2052C000D9275 /* PBXTextBookmark */ = 9AE1361011C2052C000D9275 /* PBXTextBookmark */;
+			9AE1362111C207F2000D9275 /* PBXTextBookmark */ = 9AE1362111C207F2000D9275 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9A69D84111C1A791008F40FA /* Source Control */;
 		userBuildSettings = {

@@ -150,9 +150,9 @@
 		9AAEDBBE11C1CB700033488A /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
 				78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */,
 				7205314811C1B4BB00435FA4 /* DRRestaurantPickerViewController.xib */,
-				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
