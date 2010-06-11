@@ -18,6 +18,14 @@
 @synthesize restaurantPickerViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	
+	// This is temporary until we pull this data from a server?
+	BOOL imported = [[NSUserDefaults standardUserDefaults] boolForKey:@"imported"];
+	if (!imported) {
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"imported"];
+		NSString * jsonFilePath = [[NSBundle mainBundle] pathForResource:@"restaurants.json" ofType:nil];
+		NSLog(@"%@", jsonFilePath);
+	}
 
 	// Override point for customization after application launch.
 	[window makeKeyAndVisible];

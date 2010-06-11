@@ -24,8 +24,8 @@
 	};
 	78BDDB2511C1B48D00FF833E /* DataModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 796}}";
-			sepNavSelRange = "{367, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {899, 426}}";
+			sepNavSelRange = "{746, 0}";
 			sepNavVisRange = "{0, 746}";
 		};
 	};
@@ -373,6 +373,101 @@
 		rLen = 0;
 		rLoc = 9223372036854775807;
 	};
+	9AAEDBC611C1CB9F0033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBC711C1CBA00033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBC811C1CBA70033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 28";
+		rLen = 0;
+		rLoc = 746;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	9AAEDBC911C1CBA70033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBCA11C1CBAC0033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBD311C1CCC40033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBD411C1CCC40033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7205311211C1ADB700435FA4 /* restaurants.json */;
+		name = "restaurants.json: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9AAEDBD511C1CCC40033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */;
+		name = "DoughnutRunAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 759;
+		rType = 0;
+		vrLen = 1199;
+		vrLoc = 0;
+	};
+	9AAEDBD611C1CCC40033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */;
+		name = "DoughnutRunAppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 837;
+		rType = 0;
+		vrLen = 1235;
+		vrLoc = 0;
+	};
 	9AE24F6411C1A6AA006C7F8C /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9AE24F7411C1A6AA006C7F8C /* DoughnutRun */;
@@ -455,6 +550,15 @@
 			9AAEDBC111C1CB7F0033488A /* PBXTextBookmark */ = 9AAEDBC111C1CB7F0033488A /* PBXTextBookmark */;
 			9AAEDBC211C1CB7F0033488A /* PlistBookmark */ = 9AAEDBC211C1CB7F0033488A /* PlistBookmark */;
 			9AAEDBC311C1CB7F0033488A /* PlistBookmark */ = 9AAEDBC311C1CB7F0033488A /* PlistBookmark */;
+			9AAEDBC611C1CB9F0033488A /* PlistBookmark */ = 9AAEDBC611C1CB9F0033488A /* PlistBookmark */;
+			9AAEDBC711C1CBA00033488A /* PlistBookmark */ = 9AAEDBC711C1CBA00033488A /* PlistBookmark */;
+			9AAEDBC811C1CBA70033488A /* PBXTextBookmark */ = 9AAEDBC811C1CBA70033488A /* PBXTextBookmark */;
+			9AAEDBC911C1CBA70033488A /* PlistBookmark */ = 9AAEDBC911C1CBA70033488A /* PlistBookmark */;
+			9AAEDBCA11C1CBAC0033488A /* PlistBookmark */ = 9AAEDBCA11C1CBAC0033488A /* PlistBookmark */;
+			9AAEDBD311C1CCC40033488A /* PlistBookmark */ = 9AAEDBD311C1CCC40033488A /* PlistBookmark */;
+			9AAEDBD411C1CCC40033488A /* PBXTextBookmark */ = 9AAEDBD411C1CCC40033488A /* PBXTextBookmark */;
+			9AAEDBD511C1CCC40033488A /* PBXTextBookmark */ = 9AAEDBD511C1CCC40033488A /* PBXTextBookmark */;
+			9AAEDBD611C1CCC40033488A /* PBXTextBookmark */ = 9AAEDBD611C1CCC40033488A /* PBXTextBookmark */;
 		};
 		sourceControlManager = 9A69D84111C1A791008F40FA /* Source Control */;
 		userBuildSettings = {
@@ -500,9 +604,9 @@
 	};
 	9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 866}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 796}}";
+			sepNavSelRange = "{837, 0}";
+			sepNavVisRange = "{0, 1235}";
 		};
 	};
 }
