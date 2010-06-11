@@ -9,7 +9,7 @@
 	};
 	7205319211C1B81C00435FA4 /* DRRestaurantPickerViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 851}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 906}}";
 			sepNavSelRange = "{208, 0}";
 			sepNavVisRange = "{0, 570}";
 		};
@@ -38,8 +38,8 @@
 	};
 	78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 728}}";
-			sepNavSelRange = "{37, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 906}}";
+			sepNavSelRange = "{255, 0}";
 			sepNavVisRange = "{0, 255}";
 		};
 	};
@@ -49,6 +49,30 @@
 			sepNavSelRange = "{418, 15}";
 			sepNavVisRange = "{0, 1473}";
 		};
+	};
+	9A4A574711C29E9200B0A26F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7205319211C1B81C00435FA4 /* DRRestaurantPickerViewController.h */;
+		name = "DRRestaurantPickerViewController.h: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 570;
+		vrLoc = 0;
+	};
+	9A4A574811C29E9200B0A26F /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */;
+	};
+	9A4A574911C29E9200B0A26F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */;
+		name = "DRReceiptSummaryViewController.h: 17";
+		rLen = 0;
+		rLoc = 255;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
 	};
 	9A69D84111C1A791008F40FA /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -464,6 +488,9 @@
 			PBXWorkspaceStateSaveDate = 297967041;
 		};
 		perUserProjectItems = {
+			9A4A574711C29E9200B0A26F /* PBXTextBookmark */ = 9A4A574711C29E9200B0A26F /* PBXTextBookmark */;
+			9A4A574811C29E9200B0A26F /* PBXBookmark */ = 9A4A574811C29E9200B0A26F /* PBXBookmark */;
+			9A4A574911C29E9200B0A26F /* PBXTextBookmark */ = 9A4A574911C29E9200B0A26F /* PBXTextBookmark */;
 			9AE1360D11C2052C000D9275 = 9AE1360D11C2052C000D9275 /* PBXTextBookmark */;
 			9AE1360E11C2052C000D9275 = 9AE1360E11C2052C000D9275 /* PBXTextBookmark */;
 			9AE1363711C20ADD000D9275 = 9AE1363711C20ADD000D9275 /* PBXTextBookmark */;

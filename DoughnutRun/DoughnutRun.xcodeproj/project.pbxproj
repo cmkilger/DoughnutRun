@@ -143,6 +143,26 @@
 			path = menu;
 			sourceTree = "<group>";
 		};
+		9A4A574411C29E6700B0A26F /* Restautant Picker */ = {
+			isa = PBXGroup;
+			children = (
+				7205319211C1B81C00435FA4 /* DRRestaurantPickerViewController.h */,
+				7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */,
+				9AE1362B11C20A4C000D9275 /* DRRestaurantCell.h */,
+				9AE1362C11C20A4C000D9275 /* DRRestaurantCell.m */,
+			);
+			name = "Restautant Picker";
+			sourceTree = "<group>";
+		};
+		9A4A574611C29E7F00B0A26F /* Receipt Summary */ = {
+			isa = PBXGroup;
+			children = (
+				78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */,
+				78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */,
+			);
+			name = "Receipt Summary";
+			sourceTree = "<group>";
+		};
 		9AAEDB7B11C1C5DA0033488A /* icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,12 +209,8 @@
 		9AE135FC11C2047A000D9275 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				7205319211C1B81C00435FA4 /* DRRestaurantPickerViewController.h */,
-				7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */,
-				78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */,
-				78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */,
-				9AE1362B11C20A4C000D9275 /* DRRestaurantCell.h */,
-				9AE1362C11C20A4C000D9275 /* DRRestaurantCell.m */,
+				9A4A574411C29E6700B0A26F /* Restautant Picker */,
+				9A4A574611C29E7F00B0A26F /* Receipt Summary */,
 			);
 			name = Views;
 			sourceTree = "<group>";
