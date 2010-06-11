@@ -127,6 +127,16 @@
 			path = icons;
 			sourceTree = "<group>";
 		};
+		9AAEDBBE11C1CB700033488A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				78BDDB3311C1B8DF00FF833E /* ReceiptSummaryViewController.xib */,
+				7205314811C1B4BB00435FA4 /* RestaurantPickerViewController.xib */,
+				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
+			);
+			name = XIBs;
+			sourceTree = "<group>";
+		};
 		9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,7 +161,6 @@
 				9AE24F6C11C1A6AA006C7F8C /* Resources */,
 				9AE24F6D11C1A6AA006C7F8C /* Frameworks */,
 				9AE24F7311C1A6AA006C7F8C /* Products */,
-				7205314811C1B4BB00435FA4 /* RestaurantPickerViewController.xib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,13 +200,12 @@
 		9AE24F6C11C1A6AA006C7F8C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9AAEDBBE11C1CB700033488A /* XIBs */,
 				9AAEDB7B11C1C5DA0033488A /* icons */,
 				7205310811C1ADB700435FA4 /* image */,
 				7205310D11C1ADB700435FA4 /* menu */,
 				7205311211C1ADB700435FA4 /* restaurants.json */,
 				9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */,
-				78BDDB3311C1B8DF00FF833E /* ReceiptSummaryViewController.xib */,
-				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
 				9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -247,6 +255,9 @@
 /* Begin PBXProject section */
 		9AE24F6411C1A6AA006C7F8C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Cory Kilger";
+			};
 			buildConfigurationList = 9AE24F6711C1A6AA006C7F8C /* Build configuration list for PBXProject "DoughnutRun" */;
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
@@ -336,7 +347,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -351,7 +362,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.2;
+				SDKROOT = iphoneos4.0;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
