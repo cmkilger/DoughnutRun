@@ -455,7 +455,9 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DoughnutRun_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DoughnutRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = DoughnutRun;
 				USER_HEADER_SEARCH_PATHS = "External/TouchJSON/**";
 				WRAPPER_EXTENSION = app;
@@ -469,7 +471,9 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DoughnutRun_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "DoughnutRun-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = DoughnutRun;
 				USER_HEADER_SEARCH_PATHS = "External/TouchJSON/**";
 				VALIDATE_PRODUCT = YES;

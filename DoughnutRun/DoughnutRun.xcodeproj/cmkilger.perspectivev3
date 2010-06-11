@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -322,8 +324,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -338,22 +338,16 @@
 										<string>9A69D84511C1B05F008F40FA</string>
 										<key>PBXProjectModuleLabel</key>
 										<string>DRRestaurantPickerViewController.m</string>
-										<key>_historyCapacity</key>
-										<integer>10</integer>
-										<key>bookmark</key>
-										<string>9AE1370811C212BD000D9275</string>
 										<key>history</key>
 										<array>
 											<string>9AE1360D11C2052C000D9275</string>
 											<string>9AE1360E11C2052C000D9275</string>
 											<string>9AE1363711C20ADD000D9275</string>
 											<string>9AE1363811C20ADD000D9275</string>
-											<string>9AE1364511C20BE2000D9275</string>
 											<string>9AE1367611C20D29000D9275</string>
 											<string>9AE136A511C2103C000D9275</string>
 											<string>9AE136C011C21134000D9275</string>
 											<string>9AE136F911C211F6000D9275</string>
-											<string>9AE1370311C21213000D9275</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -367,18 +361,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1608, 929}}</string>
+								<string>{{0, 0}, {1608, 923}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1920 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>929pt</string>
+							<string>923pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>144pt</string>
+							<string>150pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -392,7 +386,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1608, 301}}</string>
+										<string>{{10, 27}, {1608, 123}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1920 1119 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -447,8 +443,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1608, 117}}</string>
-										<key>RubberWindowFrame</key>
-										<string>0 59 1920 1119 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -476,11 +470,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9AE135D411C2022B000D9275</string>
+				<string>9A4A573F11C29DC500B0A26F</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>9AE135D511C2022B000D9275</string>
+				<string>9A4A574011C29DC500B0A26F</string>
 				<string>9A69D84411C1B05F008F40FA</string>
-				<string>9AE135D611C2022B000D9275</string>
+				<string>9A4A574111C29DC500B0A26F</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -629,14 +623,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>9AE1361111C2052C000D9275</string>
+				<string>9A4A572E11C29DC000B0A26F</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>9AE1361211C2052C000D9275</string>
-				<string>9AE1361311C2052C000D9275</string>
-				<string>9AE1361411C2052C000D9275</string>
-				<string>9AE1361511C2052C000D9275</string>
-				<string>9AE1361611C2052C000D9275</string>
+				<string>9A4A572F11C29DC000B0A26F</string>
+				<string>9A4A573011C29DC000B0A26F</string>
+				<string>9A4A573111C29DC000B0A26F</string>
+				<string>9A4A573211C29DC000B0A26F</string>
+				<string>9A4A573311C29DC000B0A26F</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -670,9 +664,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>9AE136A011C20FE3000D9275</string>
-		<string>9AE136A111C20FE3000D9275</string>
-		<string>9AE1361811C2052C000D9275</string>
 		<string>/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
