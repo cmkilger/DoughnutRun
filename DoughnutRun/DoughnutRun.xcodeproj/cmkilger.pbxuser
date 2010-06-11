@@ -1,25 +1,39 @@
 // !$*UTF8*$!
 {
+	7205311211C1ADB700435FA4 /* restaurants.json */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 796}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 504}";
+		};
+	};
+	7205319211C1B81C00435FA4 /* RestaurantPickerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{0, 431}";
+		};
+	};
 	7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */ = {
 		uiCtxt = {
-			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3863, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3914, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3964, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6632}\";\n    s = 0;\n}";
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 2873}}";
-			sepNavSelRange = "{4670, 20}";
-			sepNavVisRange = "{3634, 2294}";
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3850, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3901, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3951, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6610}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 2782}}";
+			sepNavSelRange = "{5410, 0}";
+			sepNavVisRange = "{4328, 2215}";
 		};
 	};
 	78BDDB2511C1B48D00FF833E /* DataModel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 737}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 796}}";
+			sepNavSelRange = "{367, 0}";
+			sepNavVisRange = "{0, 746}";
 		};
 	};
 	78BDDB2611C1B48D00FF833E /* DataModel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 1742}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1929}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 1703}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{0, 1925}";
 		};
 	};
 	78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */ = {
@@ -217,9 +231,152 @@
 		isa = PBXBookmark;
 		fRef = 7205310911C1ADB700435FA4 /* gandolfos.png */;
 	};
+	9AAEDB9C11C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */;
+		name = "ReceiptSummaryViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1473;
+		vrLoc = 0;
+	};
+	9AAEDB9D11C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2611C1B48D00FF833E /* DataModel.m */;
+		name = "DataModel.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1929;
+		vrLoc = 0;
+	};
+	9AAEDB9E11C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */;
+		name = "DoughnutRunAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 866;
+		vrLoc = 0;
+	};
+	9AAEDB9F11C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */;
+		name = "RestaurantPickerViewController.m: 187";
+		rLen = 0;
+		rLoc = 5467;
+		rType = 0;
+		vrLen = 2215;
+		vrLoc = 4385;
+	};
+	9AAEDBA011C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7205319211C1B81C00435FA4 /* RestaurantPickerViewController.h */;
+		name = "RestaurantPickerViewController.h: 13";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 0;
+	};
+	9AAEDBA111C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 0;
+	};
+	9AAEDBA211C1CA9D0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 23";
+		rLen = 0;
+		rLoc = 6;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	9AAEDBA311C1CA9E0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 23";
+		rLen = 0;
+		rLoc = 6;
+		rType = 0;
+		vrLen = 735;
+		vrLoc = 0;
+	};
+	9AAEDBAC11C1CB080033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 16";
+		rLen = 0;
+		rLoc = 6;
+		rType = 0;
+		vrLen = 734;
+		vrLoc = 0;
+	};
+	9AAEDBBF11C1CB7F0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2511C1B48D00FF833E /* DataModel.h */;
+		name = "DataModel.h: 17";
+		rLen = 0;
+		rLoc = 367;
+		rType = 0;
+		vrLen = 746;
+		vrLoc = 0;
+	};
+	9AAEDBC011C1CB7F0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 78BDDB2611C1B48D00FF833E /* DataModel.m */;
+		name = "DataModel.m: 30";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 1925;
+		vrLoc = 0;
+	};
+	9AAEDBC111C1CB7F0033488A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7205311211C1ADB700435FA4 /* restaurants.json */;
+		name = "restaurants.json: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	9AAEDBC211C1CB7F0033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	9AAEDBC311C1CB7F0033488A /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
 	9AE24F6411C1A6AA006C7F8C /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 9AE24F7411C1A6AA006C7F8C /* DoughnutRun */;
+		activeSDKPreference = iphonesimulator4.0;
 		activeTarget = 9AE24F7111C1A6AA006C7F8C /* DoughnutRun */;
 		addToTargets = (
 			9AE24F7111C1A6AA006C7F8C /* DoughnutRun */,
@@ -284,6 +441,20 @@
 			9A69D85511C1B071008F40FA = 9A69D85511C1B071008F40FA /* PBXBookmark */;
 			9A69D85611C1B071008F40FA = 9A69D85611C1B071008F40FA /* PBXBookmark */;
 			9A69D85711C1B071008F40FA = 9A69D85711C1B071008F40FA /* PBXBookmark */;
+			9AAEDB9C11C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDB9C11C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDB9D11C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDB9D11C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDB9E11C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDB9E11C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDB9F11C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDB9F11C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDBA011C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDBA011C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDBA111C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDBA111C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDBA211C1CA9D0033488A /* PBXTextBookmark */ = 9AAEDBA211C1CA9D0033488A /* PBXTextBookmark */;
+			9AAEDBA311C1CA9E0033488A /* PBXTextBookmark */ = 9AAEDBA311C1CA9E0033488A /* PBXTextBookmark */;
+			9AAEDBAC11C1CB080033488A /* PBXTextBookmark */ = 9AAEDBAC11C1CB080033488A /* PBXTextBookmark */;
+			9AAEDBBF11C1CB7F0033488A /* PBXTextBookmark */ = 9AAEDBBF11C1CB7F0033488A /* PBXTextBookmark */;
+			9AAEDBC011C1CB7F0033488A /* PBXTextBookmark */ = 9AAEDBC011C1CB7F0033488A /* PBXTextBookmark */;
+			9AAEDBC111C1CB7F0033488A /* PBXTextBookmark */ = 9AAEDBC111C1CB7F0033488A /* PBXTextBookmark */;
+			9AAEDBC211C1CB7F0033488A /* PlistBookmark */ = 9AAEDBC211C1CB7F0033488A /* PlistBookmark */;
+			9AAEDBC311C1CB7F0033488A /* PlistBookmark */ = 9AAEDBC311C1CB7F0033488A /* PlistBookmark */;
 		};
 		sourceControlManager = 9A69D84111C1A791008F40FA /* Source Control */;
 		userBuildSettings = {
@@ -315,6 +486,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);

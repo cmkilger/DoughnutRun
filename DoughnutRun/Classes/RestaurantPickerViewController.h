@@ -11,7 +11,6 @@
 
 @interface RestaurantPickerViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 	NSFetchedResultsController *fetchedResultsController;
-
 }
 
 @property (retain) NSFetchedResultsController *fetchedResultsController;
