@@ -8,13 +8,16 @@
 
 
 #import <UIKit/UIKit.h>
+@class RestaurantPickerViewController;
 
 @interface DoughnutRunAppDelegate : NSObject <UIApplicationDelegate> {
 
-	UIWindow *window;
+	UIWindow *window;	
+    RestaurantPickerViewController * restaurantPickerViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet RestaurantPickerViewController *restaurantPickerViewController;
 
 @end
 

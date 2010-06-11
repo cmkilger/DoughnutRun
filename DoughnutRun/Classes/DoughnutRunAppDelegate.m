@@ -8,17 +8,20 @@
 
 
 #import "DoughnutRunAppDelegate.h"
+#import "RestaurantPickerViewController.h"
 #import "DataModel.h"
 
 @implementation DoughnutRunAppDelegate
 
 
 @synthesize window;
+@synthesize restaurantPickerViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
 	// Override point for customization after application launch.
 	[window makeKeyAndVisible];
+	[window addSubview:restaurantPickerViewController.view];
     return YES;
 }
 
@@ -28,6 +31,7 @@
 
 - (void)dealloc {
 	[window release];
+	[restaurantPickerViewController release];
     [super dealloc];
 }
 
