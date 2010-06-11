@@ -1,18 +1,18 @@
 //
-//  RestaurantPickerViewController.m
+//  DRRestaurantPickerViewController.m
 //  DoughnutRun
 //
 //  Created by Josef Salyer on 6/10/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "RestaurantPickerViewController.h"
-#import "DataModel.h"
-#import "Restaurant.h"
-#import "ReceiptSummaryViewController.h"
+#import "DRRestaurantPickerViewController.h"
+#import "DRDataManager.h"
+#import "DRRestaurant.h"
+#import "DRReceiptSummaryViewController.h"
 
 
-@implementation RestaurantPickerViewController
+@implementation DRRestaurantPickerViewController
 
 @synthesize fetchedResultsController;
 
@@ -153,7 +153,7 @@
 	 [detailViewController release];
 	 */
 	
-	ReceiptSummaryViewController * receiptSummaryViewController = [[ReceiptSummaryViewController alloc] initWithNibName:@"ReceiptSummaryViewController" bundle:nil];
+	DRReceiptSummaryViewController * receiptSummaryViewController = [[DRReceiptSummaryViewController alloc] initWithNibName:@"DRReceiptSummaryViewController" bundle:nil];
 	
 	[self.view addSubview:receiptSummaryViewController.view];
 	[receiptSummaryViewController release];
@@ -165,7 +165,7 @@
 - (NSFetchedResultsController *)fetchedResultsController {
     
 
-	DataModel * dataModel = [DataModel sharedDataModel];
+	DRDataManager * dataModel = [DRDataManager sharedDataManager];
 	
 	if (fetchedResultsController)
 		return fetchedResultsController;
@@ -189,7 +189,7 @@
 	// Edit the section name key path and cache name if appropriate.
 	// nil for section name key path means "no sections".
 	NSFetchedResultsController * aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
-																								 managedObjectContext:[[DataModel sharedDataModel] managedObjectContext]
+																								 managedObjectContext:[[DRDataManager sharedDataManager] managedObjectContext]
 																								   sectionNameKeyPath:nil
 																											cacheName:@"Restaurants"];
 	aFetchedResultsController.delegate = self;

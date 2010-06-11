@@ -1,5 +1,5 @@
 //
-//  Restaurant.h
+//  DRRestaurant.h
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
@@ -9,7 +9,7 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Restaurant :  NSManagedObject  
+@interface DRRestaurant :  NSManagedObject  
 {
 }
 
@@ -22,7 +22,7 @@
 @end
 
 
-@interface Restaurant (CoreDataGeneratedAccessors)
+@interface DRRestaurant (CoreDataGeneratedAccessors)
 - (void)addMenuObject:(NSManagedObject *)value;
 - (void)removeMenuObject:(NSManagedObject *)value;
 - (void)addMenu:(NSSet *)value;

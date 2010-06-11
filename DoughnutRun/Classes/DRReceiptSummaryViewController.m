@@ -1,15 +1,15 @@
 //
-//  ReceiptSummaryViewController.m
+//  DRReceiptSummaryViewController.m
 //  DoughnutRun
 //
 //  Created by Sean Hess on 6/10/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "ReceiptSummaryViewController.h"
+#import "DRReceiptSummaryViewController.h"
 
 
-@implementation ReceiptSummaryViewController
+@implementation DRReceiptSummaryViewController
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

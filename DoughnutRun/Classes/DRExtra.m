@@ -1,17 +1,17 @@
 // 
-//  Extra.m
+//  DRExtra.m
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "Extra.h"
+#import "DRExtra.h"
 
 
-@implementation Extra 
+@implementation DRExtra 
 
-@dynamic defaults;
+@dynamic included;
 @dynamic name;
 @dynamic cost;
 @dynamic item;

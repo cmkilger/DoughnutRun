@@ -1,5 +1,5 @@
 //
-//  MenuSection.h
+//  DRMenuSection.h
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
@@ -8,23 +8,23 @@
 
 #import <CoreData/CoreData.h>
 
-@class MenuItem;
-@class Restaurant;
+@class DRMenuItem;
+@class DRRestaurant;
 
-@interface MenuSection :  NSManagedObject  
+@interface DRMenuSection :  NSManagedObject  
 {
 }
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet* items;
-@property (nonatomic, retain) Restaurant * restaurants;
+@property (nonatomic, retain) DRRestaurant * restaurants;
 
 @end
 
 
-@interface MenuSection (CoreDataGeneratedAccessors)
-- (void)addItemsObject:(MenuItem *)value;
-- (void)removeItemsObject:(MenuItem *)value;
+@interface DRMenuSection (CoreDataGeneratedAccessors)
+- (void)addItemsObject:(DRMenuItem *)value;
+- (void)removeItemsObject:(DRMenuItem *)value;
 - (void)addItems:(NSSet *)value;
 - (void)removeItems:(NSSet *)value;
 

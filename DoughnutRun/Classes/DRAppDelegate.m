@@ -7,11 +7,11 @@
 //
 
 
-#import "DoughnutRunAppDelegate.h"
-#import "RestaurantPickerViewController.h"
-#import "DataModel.h"
+#import "DRAppDelegate.h"
+#import "DRRestaurantPickerViewController.h"
+#import "DRDataManager.h"
 
-@implementation DoughnutRunAppDelegate
+@implementation DRAppDelegate
 
 
 @synthesize window;
@@ -19,14 +19,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
-	// This is temporary until we pull this data from a server?
-	BOOL imported = [[NSUserDefaults standardUserDefaults] boolForKey:@"imported"];
-	if (!imported) {
-		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"imported"];
-		NSString * jsonFilePath = [[NSBundle mainBundle] pathForResource:@"restaurants.json" ofType:nil];
-		NSLog(@"%@", jsonFilePath);
-	}
-
+	[[DRDataManager sharedDataManager] importIfNeeded];
+	
 	// Override point for customization after application launch.
 	[window makeKeyAndVisible];
 	[window addSubview:restaurantPickerViewController.view];
@@ -34,7 +28,7 @@
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    [[DataModel sharedDataModel] saveChanges];
+    [[DRDataManager sharedDataManager] saveChanges];
 }
 
 - (void)dealloc {

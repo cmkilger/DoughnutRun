@@ -1,17 +1,17 @@
 // 
-//  MenuSection.m
+//  DRMenuSection.m
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "MenuSection.h"
+#import "DRMenuSection.h"
 
-#import "MenuItem.h"
-#import "Restaurant.h"
+#import "DRMenuItem.h"
+#import "DRRestaurant.h"
 
-@implementation MenuSection 
+@implementation DRMenuSection 
 
 @dynamic name;
 @dynamic items;

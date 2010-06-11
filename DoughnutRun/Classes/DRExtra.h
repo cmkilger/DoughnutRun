@@ -1,5 +1,5 @@
 //
-//  Extra.h
+//  DRExtra.h
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
@@ -9,11 +9,11 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Extra :  NSManagedObject  
+@interface DRExtra :  NSManagedObject  
 {
 }
 
-@property (nonatomic, retain) NSNumber * defaults;
+@property (nonatomic, retain) NSNumber * included;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * cost;
 @property (nonatomic, retain) NSManagedObject * item;

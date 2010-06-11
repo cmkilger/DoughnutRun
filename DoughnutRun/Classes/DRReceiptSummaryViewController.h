@@ -1,5 +1,5 @@
 //
-//  ReceiptSummaryViewController.h
+//  DRReceiptSummaryViewController.h
 //  DoughnutRun
 //
 //  Created by Sean Hess on 6/10/10.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface ReceiptSummaryViewController : UIViewController {
+@interface DRReceiptSummaryViewController : UIViewController {
     
 }
 

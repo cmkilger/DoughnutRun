@@ -1,5 +1,5 @@
 //
-//  MenuItem.h
+//  DRMenuItem.h
 //  DoughnutRun
 //
 //  Created by Cory Kilger on 6/10/10.
@@ -8,16 +8,16 @@
 
 #import <CoreData/CoreData.h>
 
-@class Extra;
+@class DRExtra;
 
-@interface MenuItem :  NSManagedObject  
+@interface DRMenuItem :  NSManagedObject  
 {
 }
 
 @property (nonatomic, retain) NSNumber * cost;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSString * summary;
-@property (nonatomic, retain) Extra * extras;
+@property (nonatomic, retain) DRExtra * extras;
 @property (nonatomic, retain) NSManagedObject * section;
 
 @end

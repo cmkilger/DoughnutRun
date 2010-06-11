@@ -1,23 +1,25 @@
 //
-//  DataModel.m
+//  DRDataManager.m
 //  DoughnutRun
 //
 //  Created by Sean Hess on 6/10/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "DataModel.h"
+#import "DRDataManager.h"
+#import "CJSONDeserializer.h"
+#import "DRRestaurant.h"
 
 
-@implementation DataModel
+@implementation DRDataManager
 @synthesize managedObjectModel, managedObjectContext, persistentStoreCoordinator;
 
 
-+ (DataModel*)sharedDataModel {
-    static DataModel * sharedDataModel = nil;
++ (DRDataManager*)sharedDataManager {
+    static DRDataManager * sharedDataModel = nil;
     
     if (sharedDataModel == nil) {
-        sharedDataModel = [DataModel new];
+        sharedDataModel = [DRDataManager new];
     }
     
     return sharedDataModel;
@@ -39,6 +41,34 @@
 	}
 }
 
+- (void) importIfNeeded {
+	// This is temporary until we pull this data from a server?
+	BOOL imported = [[NSUserDefaults standardUserDefaults] boolForKey:@"imported"];
+	if (!imported) {
+		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"imported"];
+		NSString * jsonFilePath = [[NSBundle mainBundle] pathForResource:@"restaurants.json" ofType:nil];
+		NSData * jsonData = [NSData dataWithContentsOfFile:jsonFilePath];
+		NSError * error = nil;
+		NSDictionary * jsonDictionary = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
+		NSManagedObjectContext * context = [[DRDataManager sharedDataManager] managedObjectContext];
+		if (error) {
+			NSLog(@"Error: %@", [error localizedDescription]);
+		}
+		else {
+			NSArray * restaurants = [jsonDictionary objectForKey:@"restaurants"];
+			for (NSDictionary * restaurantDict in restaurants) {
+				NSEntityDescription * entityDescription = [NSEntityDescription entityForName:@"Restaurant" inManagedObjectContext:context];
+				DRRestaurant * restaurant = [[NSManagedObject alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:context];
+				restaurant.name = [restaurantDict objectForKey:@"name"];
+				restaurant.phone = [restaurantDict objectForKey:@"phone"];
+				restaurant.menuFile = [restaurantDict objectForKey:@"menu"];
+				restaurant.imageFile = [restaurantDict objectForKey:@"image"];
+				[restaurant release];
+			}
+			[self saveChanges];
+		}
+	}
+}
 
 /**
  Returns the managed object context for the application.

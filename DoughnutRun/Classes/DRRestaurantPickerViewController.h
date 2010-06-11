@@ -1,5 +1,5 @@
 //
-//  RestaurantPickerViewController.h
+//  DRRestaurantPickerViewController.h
 //  DoughnutRun
 //
 //  Created by Josef Salyer on 6/10/10.
@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface RestaurantPickerViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
+@interface DRRestaurantPickerViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 	NSFetchedResultsController *fetchedResultsController;
 }
 
