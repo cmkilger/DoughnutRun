@@ -13,6 +13,7 @@
 @interface DoughnutRunAppDelegate : NSObject <UIApplicationDelegate> {
 
 	UIWindow *window;
+<<<<<<< HEAD
 
 	NSManagedObjectContext *managedObjectContext;
 	NSManagedObjectModel *managedObjectModel;
@@ -29,6 +30,11 @@
 @property (nonatomic, retain, readonly) NSPersistentStoreCoordinator *persistentStoreCoordinator;
 
 - (NSString *)applicationDocumentsDirectory;
+=======
+}
+
+@property (nonatomic, retain) IBOutlet UIWindow *window;
+>>>>>>> 3ad593a02d2e1151ba67405375e1b62016390d6d
 
 @end
 
