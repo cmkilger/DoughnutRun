@@ -1,0 +1,463 @@
+TDoughnutRun
+v7
+r0
+t297906274.760858
+cCheck dependencies
+cProcessInfoPlistFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/Info.plist DoughnutRun-Info.plist
+cProcessPCH /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch.gch DoughnutRun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cDataModelCompile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun.mom /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel
+cCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/main.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRunAppDelegate.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/RestaurantPickerViewController.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun normal i386
+cGenerateDSYMFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app.dSYM /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun
+cCopyStringsFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+cCompileXIB /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.png image/gandolfos.png
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/gurus.png image/gurus.png
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/reddeli.png image/reddeli.png
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.png image/thepitapit.png
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.pdf menu/gandolfos.pdf
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/gurus.pdf menu/gurus.pdf
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/reddeli.pdf menu/reddeli.pdf
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.pdf menu/thepitapit.pdf
+cCpResource build/Debug-iphonesimulator/DoughnutRun.app/restaurants.json restaurants.json
+cTouch /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004BD236930000000000000110
+t1272067731
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004BD2002300000000001D2E00
+t1272053795
+s1912320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004BD1FFED000000000000046B
+t1272053741
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BD1CD90000000000026F020
+t1272040848
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BD1FFC200000000002A96A0
+t1272053698
+s2791072
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BD1FF9E0000000000001355
+t1272053662
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BD20412000000000000098F
+t1272054802
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BD20471000000000222E640
+t1272054897
+s35841600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/usr/include/Availability.h
+c000000004BD1CFC10000000000001A1A
+t1272041409
+s6682
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.h
+c000000004C1178D90000000000000356
+t1276213465
+s854
+i<UIKit/UIKit.h>
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m
+c000000004C1175E60000000000001198
+t1276212710
+s4504
+i"DoughnutRunAppDelegate.h"
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.h
+c000000004C1177160000000000000104
+t1276213014
+s260
+i<UIKit/UIKit.h>
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m
+c000000004C1177160000000000000642
+t1276213014
+s1602
+i"RestaurantPickerViewController.h"
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel
+c000000004C1175E60000000000000088
+t1276212710
+s136
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun_Prefix.pch
+c000000004C1175E60000000000000162
+t1276212710
+s354
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i<Availability.h>
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app
+t1276213474
+s544
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app.dSYM
+t1276213473
+s102
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun
+t1276213473
+s18232
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun.mom
+t1276213472
+s3598
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/Info.plist
+t1276213467
+s813
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/PkgInfo
+t1276213467
+s8
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/InfoPlist.strings
+t1276213473
+s126
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/MainWindow.nib
+t1276213474
+s988
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.pdf
+t1276213473
+s2736186
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.png
+t1276213473
+s13531
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/gurus.pdf
+t1276213473
+s267111
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/gurus.png
+t1276213473
+s20866
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/reddeli.pdf
+t1276213473
+s207618
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/reddeli.png
+t1276213473
+s31134
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/restaurants.json
+t1276213473
+s504
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.pdf
+t1276213473
+s385051
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.png
+t1276213473
+s17772
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRun.LinkFileList
+c000000004C1178DB00000000000001DF
+t1276213467
+s479
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRunAppDelegate.o
+t1276213472
+s52832
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/RestaurantPickerViewController.o
+t1276213472
+s34184
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/main.o
+t1276213472
+s6332
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/InfoPlist.strings
+c000000004C1175E60000000000000066
+t1276212710
+s102
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib
+c000000004C1175E60000000000003E81
+t1276212710
+s16001
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gandolfos.png
+c000000004C1171D700000000000034DB
+t1276211671
+s13531
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gurus.png
+c000000004C1171CB0000000000005182
+t1276211659
+s20866
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/reddeli.png
+c000000004C1171AD000000000000799E
+t1276211629
+s31134
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/thepitapit.png
+c000000004C1171BE000000000000456C
+t1276211646
+s17772
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m
+c000000004C1175E6000000000000015F
+t1276212710
+s351
+i<UIKit/UIKit.h>
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gandolfos.pdf
+c000000004C1172CA000000000029C03A
+t1276211914
+s2736186
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gurus.pdf
+c000000004C1174750000000000041367
+t1276212341
+s267111
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/reddeli.pdf
+c000000004C1173210000000000032B02
+t1276212001
+s207618
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/thepitapit.pdf
+c000000004C116E5F000000000005E01B
+t1276210783
+s385051
+
+N/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/restaurants.json
+c000000004C116CB300000000000001F8
+t1276210355
+s504
+
+N/var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch.gch
+t1276213472
+s14707376
+
+NDoughnutRun-Info.plist
+c000000004C1175E60000000000000612
+t1276212710
+s1554
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297906267#297906267#0(0"0(0#1#0"32651522506817640#0"0#
+
+CCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRunAppDelegate.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297906272.612133
+e297906272.810939
+r1
+xCompileC
+xbuild/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRunAppDelegate.o
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m297906272#297906272#0(0"0(0#0#86"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m8635972032#2200"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-generated-files.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-own-target-headers.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-all-target-headers.hmap -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-project-headers.hmap -F/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/include -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources/i386 -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources -include /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch -c /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/DoughnutRunAppDelegate.m -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRunAppDelegate.o0#
+
+CCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/RestaurantPickerViewController.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297906272.613328
+e297906272.789898
+r1
+xCompileC
+xbuild/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/RestaurantPickerViewController.o
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@102"Compile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m297906272#297906272#0(0"0(0#0#94"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m8635846464#2216"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-generated-files.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-own-target-headers.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-all-target-headers.hmap -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-project-headers.hmap -F/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/include -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources/i386 -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources -include /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch -c /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/RestaurantPickerViewController.o0#
+
+CCompileC build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/main.o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297906272.610848
+e297906272.777740
+r1
+xCompileC
+xbuild/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/main.o
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m297906272#297906272#0(0"0(0#0#60"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m8636067392#2156"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-generated-files.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-own-target-headers.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-all-target-headers.hmap -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-project-headers.hmap -F/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/include -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources/i386 -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources -include /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch -c /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/main.m -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib
+s297906273.345321
+e297906274.757037
+r1
+xCompileXIB
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib
+lSLF07#2@34"CompileXIB en.lproj/MainWindow.xib297906273#297906274#0(0"0(0#0#77"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib8607323680#637"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/MainWindow.nib /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk0#
+
+CCopyStringsFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/InfoPlist.strings en.lproj/InfoPlist.strings
+s297906273.344320
+e297906273.859444
+r1
+xCopyStringsFile
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj/InfoPlist.strings
+xen.lproj/InfoPlist.strings
+lSLF07#2@31"Copy en.lproj/InfoPlist.strings297906273#297906273#0(0"0(0#0#80"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/en.lproj/InfoPlist.strings8611249920#517"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary en.lproj/InfoPlist.strings --outdir /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/en.lproj0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.pdf menu/gandolfos.pdf
+s297906273.351185
+e297906273.995318
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/gandolfos.pdf
+xmenu/gandolfos.pdf
+lSLF07#2@23"Copy menu/gandolfos.pdf297906273#297906273#0(0"0(0#0#72"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gandolfos.pdf8636016576#511"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gandolfos.pdf /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/gandolfos.png image/gandolfos.png
+s297906273.346178
+e297906273.388564
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/gandolfos.png
+ximage/gandolfos.png
+lSLF07#2@24"Copy image/gandolfos.png297906273#297906273#0(0"0(0#0#73"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gandolfos.png8599670592#512"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gandolfos.png /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/gurus.pdf menu/gurus.pdf
+s297906273.352263
+e297906273.783306
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/gurus.pdf
+xmenu/gurus.pdf
+lSLF07#2@19"Copy menu/gurus.pdf297906273#297906273#0(0"0(0#0#68"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gurus.pdf8635898624#507"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/gurus.pdf /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/gurus.png image/gurus.png
+s297906273.347069
+e297906273.457033
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/gurus.png
+ximage/gurus.png
+lSLF07#2@20"Copy image/gurus.png297906273#297906273#0(0"0(0#0#69"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gurus.png8636464672#508"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/gurus.png /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/reddeli.pdf menu/reddeli.pdf
+s297906273.353231
+e297906273.774389
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/reddeli.pdf
+xmenu/reddeli.pdf
+lSLF07#2@21"Copy menu/reddeli.pdf297906273#297906273#0(0"0(0#0#70"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/reddeli.pdf8635820800#509"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/reddeli.pdf /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/reddeli.png image/reddeli.png
+s297906273.348002
+e297906273.457243
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/reddeli.png
+ximage/reddeli.png
+lSLF07#2@22"Copy image/reddeli.png297906273#297906273#0(0"0(0#0#71"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/reddeli.png8636153312#510"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/reddeli.png /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/restaurants.json restaurants.json
+s297906273.388696
+e297906273.488310
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/restaurants.json
+xrestaurants.json
+lSLF07#2@21"Copy restaurants.json297906273#297906273#0(0"0(0#0#70"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/restaurants.json8635521120#509"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/restaurants.json /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.pdf menu/thepitapit.pdf
+s297906273.354203
+e297906273.793890
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/thepitapit.pdf
+xmenu/thepitapit.pdf
+lSLF07#2@24"Copy menu/thepitapit.pdf297906273#297906273#0(0"0(0#0#73"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/thepitapit.pdf8635552192#512"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/menu/thepitapit.pdf /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CCpResource build/Debug-iphonesimulator/DoughnutRun.app/thepitapit.png image/thepitapit.png
+s297906273.348975
+e297906273.457422
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DoughnutRun.app/thepitapit.png
+ximage/thepitapit.png
+lSLF07#2@25"Copy image/thepitapit.png297906273#297906273#0(0"0(0#0#74"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/thepitapit.png8636045792#513"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/image/thepitapit.png /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+
+CDataModelCompile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun.mom /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel
+s297906272.609441
+e297906272.812208
+r1
+xDataModelCompile
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun.mom
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel
+lSLF07#2@85"Compile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel297906272#297906272#0(0"0(0#0#77"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel8636156512#441"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun.xcdatamodel /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun.mom0#
+
+CGenerateDSYMFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app.dSYM /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun
+s297906273.283622
+e297906273.344197
+r1
+xGenerateDSYMFile
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app.dSYM
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/DoughnutRun.app.dSYM build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun297906273#297906273#0(0"0(0#0#109"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun8635389152#440"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app.dSYM0#
+
+CLd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun normal i386
+s297906272.811058
+e297906273.283274
+r1
+xLd
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun
+xnormal
+xi386
+lSLF07#2@114"Link /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun297906272#297906273#0(0"0(0#0#0"8635446400#1015"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -F/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -filelist /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/Objects-normal/i386/DoughnutRun.LinkFileList -mmacosx-version-min=10.5 -Xlinker -objc_abi_version -Xlinker 2 -framework UIKit -framework Foundation -framework CoreGraphics -framework CoreData -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/DoughnutRun0#
+
+CProcessInfoPlistFile /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/Info.plist DoughnutRun-Info.plist
+s297906267.428290
+e297906267.492176
+r1
+xProcessInfoPlistFile
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/Info.plist
+xDoughnutRun-Info.plist
+lSLF07#2@30"Process DoughnutRun-Info.plist297906267#297906267#0(0"0(0#0#76"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun-Info.plist27303270316638324#536"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DoughnutRun-Info.plist -genpkginfo /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app/Info.plist0#
+
+CProcessPCH /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch.gch DoughnutRun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s297906267.492399
+e297906272.609149
+r1
+xProcessPCH
+x/var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch.gch
+xDoughnutRun_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile DoughnutRun_Prefix.pch297906267#297906272#0(0"0(0#0#76"/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun_Prefix.pch8636024640#2029"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-generated-files.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-own-target-headers.hmap -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-all-target-headers.hmap -iquote /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DoughnutRun-project-headers.hmap -F/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/include -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources/i386 -I/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/DoughnutRun.build/Debug-iphonesimulator/DoughnutRun.build/DerivedSources -c /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/DoughnutRun_Prefix.pch -o /var/folders/JI/JIZmJm0xHyqtOogPPxVGx++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DoughnutRun_Prefix-csdsrhruxfflbsbqetifqnfloqpu/DoughnutRun_Prefix.pch.gch0#
+
+CTouch /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app
+s297906274.757344
+e297906274.760810
+r1
+xTouch
+x/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app
+lSLF07#2@103"Touch /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app297906274#297906274#0(0"0(0#0#0"8636280320#312"    cd /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/build/Debug-iphonesimulator/DoughnutRun.app0#
+

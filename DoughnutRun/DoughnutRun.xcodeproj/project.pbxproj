@@ -16,6 +16,8 @@
 		7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311011C1ADB700435FA4 /* reddeli.pdf */; };
 		7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311111C1ADB700435FA4 /* thepitapit.pdf */; };
 		7205311B11C1ADB700435FA4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 7205311211C1ADB700435FA4 /* restaurants.json */; };
+		7205314911C1B4BB00435FA4 /* RestaurantPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7205314811C1B4BB00435FA4 /* RestaurantPickerViewController.xib */; };
+		7205319411C1B81C00435FA4 /* RestaurantPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
 		9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7511C1A6AA006C7F8C /* UIKit.framework */; };
 		9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7711C1A6AA006C7F8C /* Foundation.framework */; };
@@ -37,6 +39,9 @@
 		7205311011C1ADB700435FA4 /* reddeli.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reddeli.pdf; sourceTree = "<group>"; };
 		7205311111C1ADB700435FA4 /* thepitapit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thepitapit.pdf; sourceTree = "<group>"; };
 		7205311211C1ADB700435FA4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restaurants.json; sourceTree = "<group>"; };
+		7205314811C1B4BB00435FA4 /* RestaurantPickerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantPickerViewController.xib; sourceTree = "<group>"; };
+		7205319211C1B81C00435FA4 /* RestaurantPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantPickerViewController.h; sourceTree = "<group>"; };
+		7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantPickerViewController.m; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
 		9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoughnutRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24F7511C1A6AA006C7F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -98,6 +103,7 @@
 				9AE24F6C11C1A6AA006C7F8C /* Resources */,
 				9AE24F6D11C1A6AA006C7F8C /* Frameworks */,
 				9AE24F7311C1A6AA006C7F8C /* Products */,
+				7205314811C1B4BB00435FA4 /* RestaurantPickerViewController.xib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +120,8 @@
 			children = (
 				9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */,
 				9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */,
+				7205319211C1B81C00435FA4 /* RestaurantPickerViewController.h */,
+				7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 				7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */,
 				7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */,
 				7205311B11C1ADB700435FA4 /* restaurants.json in Resources */,
+				7205314911C1B4BB00435FA4 /* RestaurantPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +235,7 @@
 				9AE24F8311C1A6AA006C7F8C /* main.m in Sources */,
 				9AE24F8611C1A6AA006C7F8C /* DoughnutRunAppDelegate.m in Sources */,
 				9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */,
+				7205319411C1B81C00435FA4 /* RestaurantPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

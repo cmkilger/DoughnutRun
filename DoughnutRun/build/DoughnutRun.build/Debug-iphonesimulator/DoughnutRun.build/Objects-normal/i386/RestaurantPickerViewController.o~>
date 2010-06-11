@@ -1,0 +1,35 @@
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:10:23: error: Restaurant.h: No such file or directory
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m: In function '-[RestaurantPickerViewController tableView:cellForRowAtIndexPath:]':
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:97: error: 'Restaurant' undeclared (first use in this function)
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:97: error: (Each undeclared identifier is reported only once
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:97: error: for each function it appears in.)
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:97: error: 'restaurant' undeclared (first use in this function)
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:99: error: expected ';' before 'return'
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:100: warning: control reaches end of non-void function
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m: In function '-[RestaurantPickerViewController fetchedResultsController]':
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:161: error: 'FastTracAppDelegate' undeclared (first use in this function)
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:161: error: 'delegate' undeclared (first use in this function)
+/Users/josefsalyer/workspaces/DoughnutRun/DoughnutRun/Classes/RestaurantPickerViewController.m:190: warning: class 'RestaurantPickerViewController' does not implement the 'NSFetchedResultsControllerDelegate' protocol
+{standard input}:169:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+{standard input}:169:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+{standard input}:163:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000002$pb"
+{standard input}:163:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+{standard input}:157:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000002$pb"
+{standard input}:157:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:94:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+{standard input}:94:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+{standard input}:76:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+{standard input}:76:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+{standard input}:67:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+{standard input}:67:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+{standard input}:63:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+{standard input}:63:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
