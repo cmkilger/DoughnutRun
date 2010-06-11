@@ -23,6 +23,5 @@
 
 - (NSString *) applicationDocumentsDirectory;
 - (void) saveChanges;
-- (void) importIfNeeded;
 
 @end

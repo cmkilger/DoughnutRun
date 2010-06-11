@@ -17,10 +17,6 @@
 @synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	
-	// Import JSON data if first time
-	[[DRDataManager sharedDataManager] importIfNeeded];
-	
 	// Set the root view controller
 	rootViewController = [[DRRootViewController alloc] init];
 	
@@ -30,8 +26,10 @@
 	[rootViewController pushViewController:picker withTransition:UIViewAnimationTransitionFlipFromLeft];
 	[picker release];
 	
+	// Display window
 	[window makeKeyAndVisible];
 	[window addSubview:rootViewController.view];
+	
     return YES;
 }
 

@@ -10,10 +10,17 @@
 #import "CJSONDeserializer.h"
 #import "DRRestaurant.h"
 
+#define CoreDataDatabaseFile @"DoughnutRun.sqlite"
+
+@interface DRDataManager () 
+
+- (NSString *) databaseFilePath;
+- (void) prepopulate;
+
+@end
 
 @implementation DRDataManager
 @synthesize managedObjectModel, managedObjectContext, persistentStoreCoordinator;
-
 
 + (DRDataManager*)sharedDataManager {
     static DRDataManager * sharedDataModel = nil;
@@ -23,6 +30,10 @@
     }
     
     return sharedDataModel;
+}
+
+- (NSString *)databaseFilePath {
+    return [[self applicationDocumentsDirectory] stringByAppendingPathComponent: CoreDataDatabaseFile];
 }
 
 -(void)saveChanges {
@@ -41,32 +52,28 @@
 	}
 }
 
-- (void) importIfNeeded {
-	// This is temporary until we pull this data from a server?
-	BOOL imported = [[NSUserDefaults standardUserDefaults] boolForKey:@"imported"];
-	if (!imported) {
-		[[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"imported"];
-		NSString * jsonFilePath = [[NSBundle mainBundle] pathForResource:@"restaurants.json" ofType:nil];
-		NSData * jsonData = [NSData dataWithContentsOfFile:jsonFilePath];
-		NSError * error = nil;
-		NSDictionary * jsonDictionary = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
-		NSManagedObjectContext * context = [[DRDataManager sharedDataManager] managedObjectContext];
-		if (error) {
-			NSLog(@"Error: %@", [error localizedDescription]);
+- (void) prepopulate {
+
+	NSString * jsonFilePath = [[NSBundle mainBundle] pathForResource:@"restaurants.json" ofType:nil];
+	NSData * jsonData = [NSData dataWithContentsOfFile:jsonFilePath];
+	NSError * error = nil;
+	NSDictionary * jsonDictionary = [[CJSONDeserializer deserializer] deserializeAsDictionary:jsonData error:&error];
+	NSManagedObjectContext * context = [[DRDataManager sharedDataManager] managedObjectContext];
+	if (error) {
+		NSLog(@"Error: %@", [error localizedDescription]);
+	}
+	else {
+		NSArray * restaurants = [jsonDictionary objectForKey:@"restaurants"];
+		for (NSDictionary * restaurantDict in restaurants) {
+			NSEntityDescription * entityDescription = [NSEntityDescription entityForName:@"Restaurant" inManagedObjectContext:context];
+			DRRestaurant * restaurant = [[NSManagedObject alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:context];
+			restaurant.name = [restaurantDict objectForKey:@"name"];
+			restaurant.phone = [restaurantDict objectForKey:@"phone"];
+			restaurant.menuFile = [restaurantDict objectForKey:@"menu"];
+			restaurant.imageFile = [restaurantDict objectForKey:@"image"];
+			[restaurant release];
 		}
-		else {
-			NSArray * restaurants = [jsonDictionary objectForKey:@"restaurants"];
-			for (NSDictionary * restaurantDict in restaurants) {
-				NSEntityDescription * entityDescription = [NSEntityDescription entityForName:@"Restaurant" inManagedObjectContext:context];
-				DRRestaurant * restaurant = [[NSManagedObject alloc] initWithEntity:entityDescription insertIntoManagedObjectContext:context];
-				restaurant.name = [restaurantDict objectForKey:@"name"];
-				restaurant.phone = [restaurantDict objectForKey:@"phone"];
-				restaurant.menuFile = [restaurantDict objectForKey:@"menu"];
-				restaurant.imageFile = [restaurantDict objectForKey:@"image"];
-				[restaurant release];
-			}
-			[self saveChanges];
-		}
+		[self saveChanges];
 	}
 }
 
@@ -79,8 +86,9 @@
     if (managedObjectContext != nil) {
         return managedObjectContext;
     }
-    
+	    
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
+	
     if (coordinator != nil) {
         managedObjectContext = [[NSManagedObjectContext alloc] init];
         [managedObjectContext setPersistentStoreCoordinator: coordinator];
@@ -98,6 +106,7 @@
     if (managedObjectModel != nil) {
         return managedObjectModel;
     }
+    
     managedObjectModel = [[NSManagedObjectModel mergedModelFromBundles:nil] retain];    
     return managedObjectModel;
 }
@@ -113,7 +122,11 @@
         return persistentStoreCoordinator;
     }
     
-    NSURL *storeUrl = [NSURL fileURLWithPath: [[self applicationDocumentsDirectory] stringByAppendingPathComponent: @"DoughnutRun.sqlite"]];
+	NSString * path = [self databaseFilePath];
+	
+	BOOL exists = [[NSFileManager defaultManager] fileExistsAtPath:[self databaseFilePath]]; 
+		
+    NSURL *storeUrl = [NSURL fileURLWithPath: path];
     
     NSError *error = nil;
     persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
@@ -131,6 +144,9 @@
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }    
+	
+	// Prepopulate if it didn't exist
+	if (!exists) [self prepopulate];
     
     return persistentStoreCoordinator;
 }
