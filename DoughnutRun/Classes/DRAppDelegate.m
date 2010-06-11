@@ -18,9 +18,7 @@
 @synthesize restaurantPickerViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	
-	[[DRDataManager sharedDataManager] importIfNeeded];
-	
+		
 	// Override point for customization after application launch.
 	[window makeKeyAndVisible];
 	[window addSubview:restaurantPickerViewController.view];
