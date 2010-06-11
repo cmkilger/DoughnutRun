@@ -17,6 +17,10 @@
 		7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311111C1ADB700435FA4 /* thepitapit.pdf */; };
 		7205311B11C1ADB700435FA4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 7205311211C1ADB700435FA4 /* restaurants.json */; };
 		78BDDB2711C1B48D00FF833E /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2611C1B48D00FF833E /* DataModel.m */; };
+		78BDDB3111C1B85A00FF833E /* ReceiptSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */; };
+		78BDDB3411C1B8DF00FF833E /* ReceiptSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BDDB3311C1B8DF00FF833E /* ReceiptSummaryViewController.xib */; };
+		78BDDB3711C1BC7300FF833E /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BDDB3511C1BC7300FF833E /* plus.png */; };
+		78BDDB3811C1BC7300FF833E /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 78BDDB3611C1BC7300FF833E /* trash.png */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
 		9A69D86B11C1B14D008F40FA /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86411C1B14D008F40FA /* Extra.m */; };
 		9A69D86C11C1B14D008F40FA /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86611C1B14D008F40FA /* Restaurant.m */; };
@@ -44,6 +48,11 @@
 		7205311211C1ADB700435FA4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restaurants.json; sourceTree = "<group>"; };
 		78BDDB2511C1B48D00FF833E /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		78BDDB2611C1B48D00FF833E /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		78BDDB2E11C1B85A00FF833E /* ReceiptSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptSummaryViewController.h; sourceTree = "<group>"; };
+		78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptSummaryViewController.m; sourceTree = "<group>"; };
+		78BDDB3311C1B8DF00FF833E /* ReceiptSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceiptSummaryViewController.xib; sourceTree = "<group>"; };
+		78BDDB3511C1BC7300FF833E /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		78BDDB3611C1BC7300FF833E /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
 		9A69D86311C1B14D008F40FA /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
 		9A69D86411C1B14D008F40FA /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extra.m; sourceTree = "<group>"; };
@@ -85,6 +94,8 @@
 		7205310811C1ADB700435FA4 /* image */ = {
 			isa = PBXGroup;
 			children = (
+				78BDDB3511C1BC7300FF833E /* plus.png */,
+				78BDDB3611C1BC7300FF833E /* trash.png */,
 				7205310911C1ADB700435FA4 /* gandolfos.png */,
 				7205310A11C1ADB700435FA4 /* gurus.png */,
 				7205310B11C1ADB700435FA4 /* reddeli.png */,
@@ -107,6 +118,8 @@
 		9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */ = {
 			isa = PBXGroup;
 			children = (
+				78BDDB2511C1B48D00FF833E /* DataModel.h */,
+				78BDDB2611C1B48D00FF833E /* DataModel.m */,
 				9A69D86311C1B14D008F40FA /* Extra.h */,
 				9A69D86411C1B14D008F40FA /* Extra.m */,
 				9A69D86511C1B14D008F40FA /* Restaurant.h */,
@@ -142,8 +155,8 @@
 		9AE24F6A11C1A6AA006C7F8C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				78BDDB2511C1B48D00FF833E /* DataModel.h */,
-				78BDDB2611C1B48D00FF833E /* DataModel.m */,
+				78BDDB2E11C1B85A00FF833E /* ReceiptSummaryViewController.h */,
+				78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */,
 				9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */,
 				9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */,
 				9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */,
@@ -167,8 +180,9 @@
 				7205310D11C1ADB700435FA4 /* menu */,
 				7205311211C1ADB700435FA4 /* restaurants.json */,
 				9AE24F7D11C1A6AA006C7F8C /* DoughnutRun-Info.plist */,
-				9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */,
+				78BDDB3311C1B8DF00FF833E /* ReceiptSummaryViewController.xib */,
 				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
+				9AE24F7F11C1A6AA006C7F8C /* InfoPlist.strings */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -246,6 +260,9 @@
 				7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */,
 				7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */,
 				7205311B11C1ADB700435FA4 /* restaurants.json in Resources */,
+				78BDDB3411C1B8DF00FF833E /* ReceiptSummaryViewController.xib in Resources */,
+				78BDDB3711C1BC7300FF833E /* plus.png in Resources */,
+				78BDDB3811C1BC7300FF833E /* trash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +281,7 @@
 				9A69D86D11C1B14D008F40FA /* MenuItem.m in Sources */,
 				9A69D86E11C1B14D008F40FA /* MenuSection.m in Sources */,
 				78BDDB2711C1B48D00FF833E /* DataModel.m in Sources */,
+				78BDDB3111C1B85A00FF833E /* ReceiptSummaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
