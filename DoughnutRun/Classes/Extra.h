@@ -13,7 +13,7 @@
 {
 }
 
-@property (nonatomic, retain) NSNumber * default;
+@property (nonatomic, retain) NSNumber * defaults;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSNumber * cost;
 @property (nonatomic, retain) NSManagedObject * item;

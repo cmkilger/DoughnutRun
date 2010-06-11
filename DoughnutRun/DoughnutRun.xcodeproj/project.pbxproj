@@ -16,6 +16,7 @@
 		7205311911C1ADB700435FA4 /* reddeli.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311011C1ADB700435FA4 /* reddeli.pdf */; };
 		7205311A11C1ADB700435FA4 /* thepitapit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7205311111C1ADB700435FA4 /* thepitapit.pdf */; };
 		7205311B11C1ADB700435FA4 /* restaurants.json in Resources */ = {isa = PBXBuildFile; fileRef = 7205311211C1ADB700435FA4 /* restaurants.json */; };
+		78BDDB2711C1B48D00FF833E /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2611C1B48D00FF833E /* DataModel.m */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
 		9A69D86B11C1B14D008F40FA /* Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86411C1B14D008F40FA /* Extra.m */; };
 		9A69D86C11C1B14D008F40FA /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86611C1B14D008F40FA /* Restaurant.m */; };
@@ -41,6 +42,8 @@
 		7205311011C1ADB700435FA4 /* reddeli.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = reddeli.pdf; sourceTree = "<group>"; };
 		7205311111C1ADB700435FA4 /* thepitapit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = thepitapit.pdf; sourceTree = "<group>"; };
 		7205311211C1ADB700435FA4 /* restaurants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = restaurants.json; sourceTree = "<group>"; };
+		78BDDB2511C1B48D00FF833E /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		78BDDB2611C1B48D00FF833E /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
 		9A69D86311C1B14D008F40FA /* Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Extra.h; sourceTree = "<group>"; };
 		9A69D86411C1B14D008F40FA /* Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extra.m; sourceTree = "<group>"; };
@@ -139,6 +142,8 @@
 		9AE24F6A11C1A6AA006C7F8C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				78BDDB2511C1B48D00FF833E /* DataModel.h */,
+				78BDDB2611C1B48D00FF833E /* DataModel.m */,
 				9AE24F8411C1A6AA006C7F8C /* DoughnutRunAppDelegate.h */,
 				9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */,
 				9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */,
@@ -258,6 +263,7 @@
 				9A69D86C11C1B14D008F40FA /* Restaurant.m in Sources */,
 				9A69D86D11C1B14D008F40FA /* MenuItem.m in Sources */,
 				9A69D86E11C1B14D008F40FA /* MenuSection.m in Sources */,
+				78BDDB2711C1B48D00FF833E /* DataModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@
 
 @implementation Extra 
 
-@dynamic default;
+@dynamic defaults;
 @dynamic name;
 @dynamic cost;
 @dynamic item;
