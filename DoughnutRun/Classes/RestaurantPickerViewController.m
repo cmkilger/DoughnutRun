@@ -9,6 +9,7 @@
 #import "RestaurantPickerViewController.h"
 #import "DataModel.h"
 #import "Restaurant.h"
+#import "ReceiptSummaryViewController.h"
 
 
 @implementation RestaurantPickerViewController
@@ -151,6 +152,11 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+	
+	ReceiptSummaryViewController * receiptSummaryViewController = [[ReceiptSummaryViewController alloc] initWithNibName:@"ReceiptSummaryViewController" bundle:nil];
+	
+	[self.view addSubview:receiptSummaryViewController.view];
+	[receiptSummaryViewController release];
 }
 
 #pragma mark -
