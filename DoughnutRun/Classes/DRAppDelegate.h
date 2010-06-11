@@ -10,16 +10,15 @@
 #import <UIKit/UIKit.h>
 
 
-@class DRRestaurantPickerViewController;
+@class DRRootViewController;
 
 @interface DRAppDelegate : NSObject <UIApplicationDelegate> {
 
 	UIWindow *window;	
-    DRRestaurantPickerViewController * restaurantPickerViewController;
+    DRRootViewController * rootViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet DRRestaurantPickerViewController *restaurantPickerViewController;
 
 @end
 

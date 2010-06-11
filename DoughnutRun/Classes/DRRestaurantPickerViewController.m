@@ -78,10 +78,19 @@
 #pragma mark Table view delegate
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    DRReceiptSummaryViewController * receiptSummaryViewController = [[DRReceiptSummaryViewController alloc] initWithNibName:@"DRReceiptSummaryViewController" bundle:nil];
-    receiptSummaryViewController.view.frame = self.view.bounds;
-    [self.view addSubview:receiptSummaryViewController.view];
-    [receiptSummaryViewController release];
+	DRReceiptSummaryViewController * receiptSummaryViewController = [[DRReceiptSummaryViewController alloc] initWithNibName:@"DRReceiptSummaryViewController" bundle:nil];
+	receiptSummaryViewController.view.frame = [self.view superview].bounds;
+	
+	UIView * parentView = [self.view superview];
+	
+	// Animate in the receipt summary
+	[UIView beginAnimations:nil context:nil];
+	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
+	[UIView setAnimationDuration:0.5];
+	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:parentView cache:YES];
+	[parentView addSubview:receiptSummaryViewController.view];
+	[UIView commitAnimations];
+	
 }
 
 #pragma mark -

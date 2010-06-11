@@ -19,8 +19,9 @@
 		7205314911C1B4BB00435FA4 /* DRRestaurantPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7205314811C1B4BB00435FA4 /* DRRestaurantPickerViewController.xib */; };
 		7205319411C1B81C00435FA4 /* DRRestaurantPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */; };
 		78BDDB2711C1B48D00FF833E /* DRDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2611C1B48D00FF833E /* DRDataManager.m */; };
-		78BDDB3111C1B85A00FF833E /* DRReceiptSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */; };
 		78BDDB3411C1B8DF00FF833E /* DRReceiptSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */; };
+		9A4A57D011C2B04D00B0A26F /* DRReceiptSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */; };
+		9A4A57E911C2B11500B0A26F /* DRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57E811C2B11500B0A26F /* DRRootViewController.m */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
 		9A69D86B11C1B14D008F40FA /* DRExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86411C1B14D008F40FA /* DRExtra.m */; };
 		9A69D86C11C1B14D008F40FA /* DRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86611C1B14D008F40FA /* DRRestaurant.m */; };
@@ -73,9 +74,11 @@
 		7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurantPickerViewController.m; sourceTree = "<group>"; };
 		78BDDB2511C1B48D00FF833E /* DRDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRDataManager.h; sourceTree = "<group>"; };
 		78BDDB2611C1B48D00FF833E /* DRDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRDataManager.m; sourceTree = "<group>"; };
-		78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReceiptSummaryViewController.h; sourceTree = "<group>"; };
-		78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReceiptSummaryViewController.m; sourceTree = "<group>"; };
 		78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRReceiptSummaryViewController.xib; sourceTree = "<group>"; };
+		9A4A57CE11C2B04D00B0A26F /* DRReceiptSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReceiptSummaryViewController.h; sourceTree = "<group>"; };
+		9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReceiptSummaryViewController.m; sourceTree = "<group>"; };
+		9A4A57E711C2B11500B0A26F /* DRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRootViewController.h; sourceTree = "<group>"; };
+		9A4A57E811C2B11500B0A26F /* DRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRootViewController.m; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
 		9A69D86311C1B14D008F40FA /* DRExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRExtra.h; sourceTree = "<group>"; };
 		9A69D86411C1B14D008F40FA /* DRExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRExtra.m; sourceTree = "<group>"; };
@@ -157,8 +160,8 @@
 		9A4A574611C29E7F00B0A26F /* Receipt Summary */ = {
 			isa = PBXGroup;
 			children = (
-				78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */,
-				78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */,
+				9A4A57CE11C2B04D00B0A26F /* DRReceiptSummaryViewController.h */,
+				9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */,
 			);
 			name = "Receipt Summary";
 			sourceTree = "<group>";
@@ -209,6 +212,8 @@
 		9AE135FC11C2047A000D9275 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9A4A57E711C2B11500B0A26F /* DRRootViewController.h */,
+				9A4A57E811C2B11500B0A26F /* DRRootViewController.m */,
 				9A4A574411C29E6700B0A26F /* Restautant Picker */,
 				9A4A574611C29E7F00B0A26F /* Receipt Summary */,
 			);
@@ -397,8 +402,9 @@
 				9A69D86D11C1B14D008F40FA /* DRMenuItem.m in Sources */,
 				9A69D86E11C1B14D008F40FA /* DRMenuSection.m in Sources */,
 				78BDDB2711C1B48D00FF833E /* DRDataManager.m in Sources */,
-				78BDDB3111C1B85A00FF833E /* DRReceiptSummaryViewController.m in Sources */,
 				9AE1362D11C20A4C000D9275 /* DRRestaurantCell.m in Sources */,
+				9A4A57D011C2B04D00B0A26F /* DRReceiptSummaryViewController.m in Sources */,
+				9A4A57E911C2B11500B0A26F /* DRRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +481,7 @@
 				INFOPLIST_FILE = "DoughnutRun-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = DoughnutRun;
+				SDKROOT = iphoneos3.2;
 				USER_HEADER_SEARCH_PATHS = "External/TouchJSON/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -491,6 +498,7 @@
 				INFOPLIST_FILE = "DoughnutRun-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				PRODUCT_NAME = DoughnutRun;
+				SDKROOT = iphoneos3.2;
 				USER_HEADER_SEARCH_PATHS = "External/TouchJSON/**";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

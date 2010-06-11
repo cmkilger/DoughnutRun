@@ -8,22 +8,30 @@
 
 
 #import "DRAppDelegate.h"
+#import "DRRootViewController.h"
 #import "DRRestaurantPickerViewController.h"
 #import "DRDataManager.h"
 
 @implementation DRAppDelegate
 
-
 @synthesize window;
-@synthesize restaurantPickerViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	
+	// Import JSON data if first time
 	[[DRDataManager sharedDataManager] importIfNeeded];
 	
-	// Override point for customization after application launch.
+	// Set the root view controller
+	rootViewController = [[DRRootViewController alloc] init];
+	
+	// Add the restaurant picker to the root view controller
+	DRRestaurantPickerViewController * picker = [[DRRestaurantPickerViewController alloc] initWithNibName:@"DRRestaurantPickerViewController" bundle:nil];
+	picker.view.frame = rootViewController.view.bounds;
+	[rootViewController pushViewController:picker withTransition:UIViewAnimationTransitionFlipFromLeft];
+	[picker release];
+	
 	[window makeKeyAndVisible];
-	[window addSubview:restaurantPickerViewController.view];
+	[window addSubview:rootViewController.view];
     return YES;
 }
 
@@ -33,7 +41,7 @@
 
 - (void)dealloc {
 	[window release];
-	[restaurantPickerViewController release];
+	[rootViewController release];
     [super dealloc];
 }
 
