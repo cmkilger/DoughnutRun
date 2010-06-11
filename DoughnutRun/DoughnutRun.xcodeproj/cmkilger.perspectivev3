@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -289,10 +287,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>31</integer>
-									<integer>30</integer>
-									<integer>29</integer>
-									<integer>28</integer>
+									<integer>8</integer>
+									<integer>6</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -325,12 +322,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>9A69D84411C1B05F008F40FA</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>DRDataManager.m</string>
+								<string>DRRestaurantPickerViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -338,23 +337,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>9A69D84511C1B05F008F40FA</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>DRDataManager.m</string>
+										<string>DRRestaurantPickerViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>10</integer>
 										<key>bookmark</key>
-										<string>9AE1362111C207F2000D9275</string>
+										<string>9AE1370711C21241000D9275</string>
 										<key>history</key>
 										<array>
-											<string>9AE1360611C2052C000D9275</string>
-											<string>9AE1360711C2052C000D9275</string>
-											<string>9AE1360811C2052C000D9275</string>
-											<string>9AE1360911C2052C000D9275</string>
-											<string>9AE1360A11C2052C000D9275</string>
-											<string>9AE1360B11C2052C000D9275</string>
-											<string>9AE1360C11C2052C000D9275</string>
 											<string>9AE1360D11C2052C000D9275</string>
 											<string>9AE1360E11C2052C000D9275</string>
-											<string>9AE1360F11C2052C000D9275</string>
+											<string>9AE1363711C20ADD000D9275</string>
+											<string>9AE1363811C20ADD000D9275</string>
+											<string>9AE1364511C20BE2000D9275</string>
+											<string>9AE1367611C20D29000D9275</string>
+											<string>9AE136A511C2103C000D9275</string>
+											<string>9AE136C011C21134000D9275</string>
+											<string>9AE136F911C211F6000D9275</string>
+											<string>9AE1370311C21213000D9275</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -368,18 +367,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1608, 868}}</string>
+								<string>{{0, 0}, {1608, 929}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 1920 1119 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>868pt</string>
+							<string>929pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>205pt</string>
+							<string>144pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -409,7 +408,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1608, 301}}</string>
+										<string>{{10, 27}, {1608, 323}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXProjectFindModule</string>
@@ -447,7 +446,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1608, 178}}</string>
+										<string>{{10, 27}, {1608, 117}}</string>
 										<key>RubberWindowFrame</key>
 										<string>0 59 1920 1119 0 0 1920 1178 </string>
 									</dict>
@@ -671,6 +670,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>9AE136A011C20FE3000D9275</string>
+		<string>9AE136A111C20FE3000D9275</string>
 		<string>9AE1361811C2052C000D9275</string>
 		<string>/Users/cmkilger/Documents/Work/Development/CoryKilger/DoughnutRun/DoughnutRun/DoughnutRun.xcodeproj</string>
 	</array>

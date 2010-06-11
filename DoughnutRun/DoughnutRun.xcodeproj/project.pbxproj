@@ -29,6 +29,8 @@
 		9AAEDB7E11C1C5DA0033488A /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEDB7C11C1C5DA0033488A /* plus.png */; };
 		9AAEDB7F11C1C5DA0033488A /* trash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEDB7D11C1C5DA0033488A /* trash.png */; };
 		9AAEDC3711C1FACA0033488A /* libTouchJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAEDC3211C1FAA20033488A /* libTouchJSON.a */; };
+		9AE1362D11C20A4C000D9275 /* DRRestaurantCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE1362C11C20A4C000D9275 /* DRRestaurantCell.m */; };
+		9AE1363D11C20B8E000D9275 /* DRRestaurantCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE1363C11C20B8E000D9275 /* DRRestaurantCell.xib */; };
 		9AE24F7611C1A6AA006C7F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7511C1A6AA006C7F8C /* UIKit.framework */; };
 		9AE24F7811C1A6AA006C7F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7711C1A6AA006C7F8C /* Foundation.framework */; };
 		9AE24F7A11C1A6AA006C7F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE24F7911C1A6AA006C7F8C /* CoreGraphics.framework */; };
@@ -86,6 +88,9 @@
 		9AAEDB7C11C1C5DA0033488A /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		9AAEDB7D11C1C5DA0033488A /* trash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash.png; sourceTree = "<group>"; };
 		9AAEDC2A11C1FAA20033488A /* TouchJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TouchJSON.xcodeproj; path = External/TouchJSON/TouchJSON.xcodeproj; sourceTree = "<group>"; };
+		9AE1362B11C20A4C000D9275 /* DRRestaurantCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRestaurantCell.h; sourceTree = "<group>"; };
+		9AE1362C11C20A4C000D9275 /* DRRestaurantCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurantCell.m; sourceTree = "<group>"; };
+		9AE1363C11C20B8E000D9275 /* DRRestaurantCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DRRestaurantCell.xib; sourceTree = "<group>"; };
 		9AE24F7211C1A6AA006C7F8C /* DoughnutRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoughnutRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE24F7511C1A6AA006C7F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9AE24F7711C1A6AA006C7F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -153,6 +158,7 @@
 				9AE24F8911C1A6AB006C7F8C /* MainWindow.xib */,
 				78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */,
 				7205314811C1B4BB00435FA4 /* DRRestaurantPickerViewController.xib */,
+				9AE1363C11C20B8E000D9275 /* DRRestaurantCell.xib */,
 			);
 			name = XIBs;
 			sourceTree = "<group>";
@@ -187,6 +193,8 @@
 				7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */,
 				78BDDB2E11C1B85A00FF833E /* DRReceiptSummaryViewController.h */,
 				78BDDB2F11C1B85A00FF833E /* DRReceiptSummaryViewController.m */,
+				9AE1362B11C20A4C000D9275 /* DRRestaurantCell.h */,
+				9AE1362C11C20A4C000D9275 /* DRRestaurantCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -353,6 +361,7 @@
 				7205314911C1B4BB00435FA4 /* DRRestaurantPickerViewController.xib in Resources */,
 				9AAEDB7E11C1C5DA0033488A /* plus.png in Resources */,
 				9AAEDB7F11C1C5DA0033488A /* trash.png in Resources */,
+				9AE1363D11C20B8E000D9275 /* DRRestaurantCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +382,7 @@
 				9A69D86E11C1B14D008F40FA /* DRMenuSection.m in Sources */,
 				78BDDB2711C1B48D00FF833E /* DRDataManager.m in Sources */,
 				78BDDB3111C1B85A00FF833E /* DRReceiptSummaryViewController.m in Sources */,
+				9AE1362D11C20A4C000D9275 /* DRRestaurantCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,10 +9,14 @@
 #import <UIKit/UIKit.h>
 
 
+@class DRRestaurantCell;
+
 @interface DRRestaurantPickerViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
-	NSFetchedResultsController *fetchedResultsController;
+	NSFetchedResultsController * fetchedResultsController;
+	DRRestaurantCell * loadedCell;
 }
 
-@property (retain) NSFetchedResultsController *fetchedResultsController;
+@property (nonatomic, retain) NSFetchedResultsController * fetchedResultsController;
+@property (nonatomic, retain) IBOutlet DRRestaurantCell * loadedCell;
  
 @end

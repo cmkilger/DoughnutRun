@@ -4,25 +4,25 @@
 		"name" : "Guru's",
 		"image" : "gurus.png",
 		"menu" : "gurus.pdf",
-		"phone" : "8013754878"
+		"phone" : "(801) 375-4878"
 	},
   { 
     "name" : "Gandolfo's",
     "image" : "gandolfos.png",
     "menu" : "gandolfos.pdf",
-    "phone" : "8013753354"
+    "phone" : "(801) 375-3354"
   },  
   { 
     "name" : "Red Deli",
     "image" : "reddeli.png",
     "menu" : "reddeli.pdf",
-    "phone" : "8013757827"
+    "phone" : "(801) 375-7827"
   },
   { 
     "name" : "The Pita Pit",
     "image" : "thepitapit.png",
     "menu" : "thepitapit.pdf",
-    "phone" : "8013567482"
+    "phone" : "(801) 356-7482"
   },
 	
 ]
