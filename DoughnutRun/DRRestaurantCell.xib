@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="7.10">
 	<data>
-		<int key="IBDocument.SystemTarget">1024</int>
+		<int key="IBDocument.SystemTarget">800</int>
 		<string key="IBDocument.SystemVersion">10D573</string>
 		<string key="IBDocument.InterfaceBuilderVersion">788</string>
 		<string key="IBDocument.AppKitVersion">1038.29</string>
@@ -62,7 +62,7 @@
 							<object class="IBUILabel" id="314109633">
 								<reference key="NSNextResponder" ref="88155628"/>
 								<int key="NSvFlags">290</int>
-								<string key="NSFrame">{{335, 20}, {413, 91}}</string>
+								<string key="NSFrame">{{335, 27}, {413, 91}}</string>
 								<reference key="NSSuperview" ref="88155628"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -72,12 +72,12 @@
 								<string key="IBUIText">Guru's</string>
 								<object class="NSFont" key="IBUIFont">
 									<string key="NSName">Helvetica-Bold</string>
-									<double key="NSSize">48</double>
+									<double key="NSSize">64</double>
 									<int key="NSfFlags">16</int>
 								</object>
 								<object class="NSColor" key="IBUIShadowColor">
 									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MSAwLjYAA</bytes>
+									<bytes key="NSWhite">MSAwAA</bytes>
 									<object class="NSColorSpace" key="NSCustomColorSpace" id="923747897">
 										<int key="NSID">2</int>
 									</object>
@@ -88,7 +88,7 @@
 							<object class="IBUILabel" id="560239807">
 								<reference key="NSNextResponder" ref="88155628"/>
 								<int key="NSvFlags">290</int>
-								<string key="NSFrame">{{335, 105}, {413, 75}}</string>
+								<string key="NSFrame">{{335, 104}, {413, 55}}</string>
 								<reference key="NSSuperview" ref="88155628"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -103,13 +103,13 @@
 								</object>
 								<object class="NSColor" key="IBUITextColor">
 									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MC41AA</bytes>
+									<bytes key="NSWhite">MC4yNQA</bytes>
 									<reference key="NSCustomColorSpace" ref="923747897"/>
 								</object>
 								<nil key="IBUIHighlightedColor"/>
 								<object class="NSColor" key="IBUIShadowColor">
 									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MSAwLjYAA</bytes>
+									<bytes key="NSWhite">MSAwAA</bytes>
 									<reference key="NSCustomColorSpace" ref="923747897"/>
 								</object>
 								<int key="IBUIBaselineAdjustment">1</int>
@@ -202,8 +202,8 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="231673388"/>
-							<reference ref="314109633"/>
 							<reference ref="560239807"/>
+							<reference ref="314109633"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -265,7 +265,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">9</int>
+			<int key="maxID">11</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -540,7 +540,7 @@
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.iPhoneOS</string>
-			<integer value="1024" key="NS.object.0"/>
+			<integer value="800" key="NS.object.0"/>
 		</object>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>

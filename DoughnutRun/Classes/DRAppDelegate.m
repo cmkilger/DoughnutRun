@@ -14,7 +14,7 @@
 
 @implementation DRAppDelegate
 
-@synthesize window;
+@synthesize window, rootViewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// Set the root view controller
@@ -22,9 +22,10 @@
 	
 	// Add the restaurant picker to the root view controller
 	DRRestaurantPickerViewController * picker = [[DRRestaurantPickerViewController alloc] initWithNibName:@"DRRestaurantPickerViewController" bundle:nil];
-	picker.view.frame = rootViewController.view.bounds;
-	[rootViewController pushViewController:picker withTransition:UIViewAnimationTransitionFlipFromLeft];
+	UINavigationController * navController = [[UINavigationController alloc] initWithRootViewController:picker];
+	[rootViewController pushViewController:navController withTransition:UIViewAnimationTransitionFlipFromLeft];
 	[picker release];
+	[navController release];
 	
 	// Display window
 	[window makeKeyAndVisible];

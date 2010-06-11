@@ -10,8 +10,13 @@
 #import "DRDataManager.h"
 #import "DRRestaurant.h"
 #import "DRReceiptSummaryViewController.h"
+#import "DRAppDelegate.h"
+#import "DRRootViewController.h"
 #import "DRRestaurantCell.h"
 
+
+#define DARK_BACKGROUND  [UIColor colorWithRed:151.0/255.0 green:152.0/255.0 blue:155.0/255.0 alpha:1.0]
+#define LIGHT_BACKGROUND [UIColor colorWithRed:172.0/255.0 green:173.0/255.0 blue:175.0/255.0 alpha:1.0]
 
 @implementation DRRestaurantPickerViewController
 
@@ -26,6 +31,11 @@
 - (void) viewDidLoad {
     [super viewDidLoad];
 	
+	// Configure the table view
+    self.tableView.rowHeight = 200.0;
+    self.tableView.backgroundColor = LIGHT_BACKGROUND;
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+	
 	// Assures that the fetched results controller is set and performs the inital fetch
     NSError * error = nil;
     if (![self.fetchedResultsController performFetch:&error]) {
@@ -39,10 +49,6 @@
 
 #pragma mark -
 #pragma mark Table view data source
-
-- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 200.0;
-}
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView {
     return [[self.fetchedResultsController sections] count];
@@ -70,6 +76,7 @@
     cell.logo.image = [UIImage imageNamed:restaurant.imageFile];
     cell.phone.text = restaurant.phone;
     cell.name.text = restaurant.name;
+	cell.useDarkBackground = indexPath.row % 2;
 
     return cell;
 }
@@ -81,16 +88,13 @@
 	DRReceiptSummaryViewController * receiptSummaryViewController = [[DRReceiptSummaryViewController alloc] initWithNibName:@"DRReceiptSummaryViewController" bundle:nil];
 	receiptSummaryViewController.view.frame = [self.view superview].bounds;
 	
-	UIView * parentView = [self.view superview];
-	
-	// Animate in the receipt summary
-	[UIView beginAnimations:nil context:nil];
-	[UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-	[UIView setAnimationDuration:0.5];
-	[UIView setAnimationTransition:UIViewAnimationTransitionFlipFromLeft forView:parentView cache:YES];
-	[parentView addSubview:receiptSummaryViewController.view];
-	[UIView commitAnimations];
-	
+	DRAppDelegate * appDelegate = [[UIApplication sharedApplication] delegate];
+	DRRootViewController * rootViewController = appDelegate.rootViewController;
+	[rootViewController pushViewController:receiptSummaryViewController withTransition:UIViewAnimationTransitionFlipFromLeft];
+}
+
+- (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+    cell.backgroundColor = ((DRRestaurantCell *)cell).useDarkBackground ? DARK_BACKGROUND : LIGHT_BACKGROUND;
 }
 
 #pragma mark -

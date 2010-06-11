@@ -11,23 +11,18 @@
 
 @implementation DRRestaurantCell
 
-@synthesize logo, name, phone;
+@synthesize logo, name, phone, useDarkBackground;
 
-- (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if ((self = [super initWithStyle:style reuseIdentifier:reuseIdentifier])) {
-        // Initialization code
+- (void)setUseDarkBackground:(BOOL)flag {
+    if (flag != useDarkBackground || !self.backgroundView) {
+        useDarkBackground = flag;
+        NSString *backgroundImagePath = [[NSBundle mainBundle] pathForResource:useDarkBackground ? @"DarkBackground" : @"LightBackground" ofType:@"png"];
+        UIImage *backgroundImage = [[UIImage imageWithContentsOfFile:backgroundImagePath] stretchableImageWithLeftCapWidth:0.0 topCapHeight:1.0];
+        self.backgroundView = [[[UIImageView alloc] initWithImage:backgroundImage] autorelease];
+        self.backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+        self.backgroundView.frame = self.bounds;
     }
-    return self;
 }
-
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
-
 
 - (void)dealloc {
 	[logo release];

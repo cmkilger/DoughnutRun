@@ -19,6 +19,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (readonly) DRRootViewController * rootViewController;
 
 @end
 

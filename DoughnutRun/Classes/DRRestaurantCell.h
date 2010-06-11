@@ -13,10 +13,13 @@
 	UIImageView * logo;
 	UILabel * phone;
 	UILabel * name;
+	
+	BOOL useDarkBackground;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView * logo;
 @property (nonatomic, retain) IBOutlet UILabel * phone;
 @property (nonatomic, retain) IBOutlet UILabel * name;
+@property (nonatomic, assign) BOOL useDarkBackground;
 
 @end
