@@ -1,5 +1,34 @@
 // !$*UTF8*$!
 {
+	7205319311C1B81C00435FA4 /* RestaurantPickerViewController.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = DetailViewController;\n            r = \"{3863, 24}\";\n            s = 1;\n        },\n                {\n            l = DetailViewController;\n            r = \"{3914, 24}\";\n            s = 1;\n        },\n                {\n            l = \"Nib name\";\n            r = \"{3964, 12}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 6632}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 2873}}";
+			sepNavSelRange = "{4670, 20}";
+			sepNavVisRange = "{3634, 2294}";
+		};
+	};
+	78BDDB2511C1B48D00FF833E /* DataModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 737}";
+		};
+	};
+	78BDDB2611C1B48D00FF833E /* DataModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 1742}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1929}";
+		};
+	};
+	78BDDB2F11C1B85A00FF833E /* ReceiptSummaryViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1473}";
+		};
+	};
 	9A69D84111C1A791008F40FA /* Source Control */ = {
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
@@ -246,8 +275,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 297906476;
-			PBXWorkspaceStateSaveDate = 297906476;
+			PBXPerProjectTemplateStateSaveDate = 297911751;
+			PBXWorkspaceStateSaveDate = 297911751;
 		};
 		perUserProjectItems = {
 			9A69D85311C1B071008F40FA = 9A69D85311C1B071008F40FA /* PBXBookmark */;
@@ -296,5 +325,12 @@
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+	};
+	9AE24F8511C1A6AA006C7F8C /* DoughnutRunAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1547, 819}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 866}";
+		};
 	};
 }

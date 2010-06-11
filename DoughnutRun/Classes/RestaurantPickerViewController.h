@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 
-@interface RestaurantPickerViewController : UITableViewController {
+@interface RestaurantPickerViewController : UITableViewController <NSFetchedResultsControllerDelegate> {
 	NSFetchedResultsController *fetchedResultsController;
 
 }

@@ -7,6 +7,7 @@
 //
 
 #import "RestaurantPickerViewController.h"
+#import "DataModel.h"
 #import "Restaurant.h"
 
 
@@ -157,8 +158,8 @@
 
 - (NSFetchedResultsController *)fetchedResultsController {
     
-/*
-	FastTracAppDelegate * delegate = [[UIApplication sharedApplication] delegate];
+
+	DataModel * dataModel = [DataModel sharedDataModel];
 	
 	if (fetchedResultsController)
 		return fetchedResultsController;
@@ -167,7 +168,7 @@
 	// Create the fetch request for the entity.
 	NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
 	// Edit the entity name as appropriate.
-	NSEntityDescription *entity = [NSEntityDescription entityForName:@"Restaurant" inManagedObjectContext:[delegate managedObjectContext]];
+	NSEntityDescription *entity = [NSEntityDescription entityForName:@"Restaurant" inManagedObjectContext:[dataModel managedObjectContext]];
 	[fetchRequest setEntity:entity];
 	
 	// Set the batch size to a suitable number.
@@ -182,7 +183,7 @@
 	// Edit the section name key path and cache name if appropriate.
 	// nil for section name key path means "no sections".
 	NSFetchedResultsController * aFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest
-																								 managedObjectContext:[delegate managedObjectContext]
+																								 managedObjectContext:[[DataModel sharedDataModel] managedObjectContext]
 																								   sectionNameKeyPath:nil
 																											cacheName:@"Restaurants"];
 	aFetchedResultsController.delegate = self;
@@ -194,7 +195,7 @@
 	[sortDescriptors release];
 	
 	return fetchedResultsController;
- */
+ 
     return nil;
 }
 
