@@ -79,6 +79,7 @@
 
 - (void) tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     DRReceiptSummaryViewController * receiptSummaryViewController = [[DRReceiptSummaryViewController alloc] initWithNibName:@"DRReceiptSummaryViewController" bundle:nil];
+    receiptSummaryViewController.view.frame = self.view.bounds;
     [self.view addSubview:receiptSummaryViewController.view];
     [receiptSummaryViewController release];
 }
