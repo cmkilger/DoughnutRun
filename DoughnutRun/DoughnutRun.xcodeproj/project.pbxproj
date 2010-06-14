@@ -20,13 +20,18 @@
 		7205319411C1B81C00435FA4 /* DRRestaurantPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */; };
 		78BDDB2711C1B48D00FF833E /* DRDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDDB2611C1B48D00FF833E /* DRDataManager.m */; };
 		78BDDB3411C1B8DF00FF833E /* DRReceiptSummaryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */; };
+		9A073E8411C5ECE600C0AA72 /* DRReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E8311C5ECE600C0AA72 /* DRReceipt.m */; };
+		9A073E8711C5EDAA00C0AA72 /* DROrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E8611C5EDAA00C0AA72 /* DROrder.m */; };
+		9A073E8C11C5EE2E00C0AA72 /* DROrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */; };
+		9A073E9B11C5EFD700C0AA72 /* DROrderExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */; };
+		9A073EE111C5F64200C0AA72 /* DRExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073ED811C5F64200C0AA72 /* DRExtra.m */; };
+		9A073EE211C5F64200C0AA72 /* DRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */; };
+		9A073EE311C5F64200C0AA72 /* DRMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */; };
+		9A073EE411C5F64200C0AA72 /* DRMenuItemExtraPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */; };
+		9A073EE511C5F64200C0AA72 /* DRMenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EE011C5F64200C0AA72 /* DRMenuSection.m */; };
 		9A4A57D011C2B04D00B0A26F /* DRReceiptSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */; };
 		9A4A57E911C2B11500B0A26F /* DRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57E811C2B11500B0A26F /* DRRootViewController.m */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
-		9A69D86B11C1B14D008F40FA /* DRExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86411C1B14D008F40FA /* DRExtra.m */; };
-		9A69D86C11C1B14D008F40FA /* DRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86611C1B14D008F40FA /* DRRestaurant.m */; };
-		9A69D86D11C1B14D008F40FA /* DRMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86811C1B14D008F40FA /* DRMenuItem.m */; };
-		9A69D86E11C1B14D008F40FA /* DRMenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D86A11C1B14D008F40FA /* DRMenuSection.m */; };
 		9A86481111C2F9C00057E4CF /* DarkBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A86480F11C2F9C00057E4CF /* DarkBackground.png */; };
 		9A86481211C2F9C00057E4CF /* LightBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A86481011C2F9C00057E4CF /* LightBackground.png */; };
 		9AAEDB7E11C1C5DA0033488A /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AAEDB7C11C1C5DA0033488A /* plus.png */; };
@@ -77,19 +82,29 @@
 		78BDDB2511C1B48D00FF833E /* DRDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRDataManager.h; sourceTree = "<group>"; };
 		78BDDB2611C1B48D00FF833E /* DRDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRDataManager.m; sourceTree = "<group>"; };
 		78BDDB3311C1B8DF00FF833E /* DRReceiptSummaryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DRReceiptSummaryViewController.xib; sourceTree = "<group>"; };
+		9A073E8211C5ECE600C0AA72 /* DRReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReceipt.h; sourceTree = "<group>"; };
+		9A073E8311C5ECE600C0AA72 /* DRReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReceipt.m; sourceTree = "<group>"; };
+		9A073E8511C5EDAA00C0AA72 /* DROrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DROrder.h; sourceTree = "<group>"; };
+		9A073E8611C5EDAA00C0AA72 /* DROrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DROrder.m; sourceTree = "<group>"; };
+		9A073E8A11C5EE2E00C0AA72 /* DROrderItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DROrderItem.h; sourceTree = "<group>"; };
+		9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DROrderItem.m; sourceTree = "<group>"; };
+		9A073E9911C5EFD700C0AA72 /* DROrderExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DROrderExtra.h; sourceTree = "<group>"; };
+		9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DROrderExtra.m; sourceTree = "<group>"; };
+		9A073ED711C5F64200C0AA72 /* DRExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRExtra.h; sourceTree = "<group>"; };
+		9A073ED811C5F64200C0AA72 /* DRExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRExtra.m; sourceTree = "<group>"; };
+		9A073ED911C5F64200C0AA72 /* DRRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRestaurant.h; sourceTree = "<group>"; };
+		9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurant.m; sourceTree = "<group>"; };
+		9A073EDB11C5F64200C0AA72 /* DRMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItem.h; sourceTree = "<group>"; };
+		9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItem.m; sourceTree = "<group>"; };
+		9A073EDD11C5F64200C0AA72 /* DRMenuItemExtraPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItemExtraPair.h; sourceTree = "<group>"; };
+		9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItemExtraPair.m; sourceTree = "<group>"; };
+		9A073EDF11C5F64200C0AA72 /* DRMenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuSection.h; sourceTree = "<group>"; };
+		9A073EE011C5F64200C0AA72 /* DRMenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuSection.m; sourceTree = "<group>"; };
 		9A4A57CE11C2B04D00B0A26F /* DRReceiptSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReceiptSummaryViewController.h; sourceTree = "<group>"; };
 		9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReceiptSummaryViewController.m; sourceTree = "<group>"; };
 		9A4A57E711C2B11500B0A26F /* DRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRootViewController.h; sourceTree = "<group>"; };
 		9A4A57E811C2B11500B0A26F /* DRRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRootViewController.m; sourceTree = "<group>"; };
 		9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = DoughnutRun.xcdatamodel; sourceTree = "<group>"; };
-		9A69D86311C1B14D008F40FA /* DRExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRExtra.h; sourceTree = "<group>"; };
-		9A69D86411C1B14D008F40FA /* DRExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRExtra.m; sourceTree = "<group>"; };
-		9A69D86511C1B14D008F40FA /* DRRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRestaurant.h; sourceTree = "<group>"; };
-		9A69D86611C1B14D008F40FA /* DRRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurant.m; sourceTree = "<group>"; };
-		9A69D86711C1B14D008F40FA /* DRMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItem.h; sourceTree = "<group>"; };
-		9A69D86811C1B14D008F40FA /* DRMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItem.m; sourceTree = "<group>"; };
-		9A69D86911C1B14D008F40FA /* DRMenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuSection.h; sourceTree = "<group>"; };
-		9A69D86A11C1B14D008F40FA /* DRMenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuSection.m; sourceTree = "<group>"; };
 		9A86480F11C2F9C00057E4CF /* DarkBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DarkBackground.png; sourceTree = "<group>"; };
 		9A86481011C2F9C00057E4CF /* LightBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightBackground.png; sourceTree = "<group>"; };
 		9AAEDB7C11C1C5DA0033488A /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
@@ -152,6 +167,21 @@
 			path = menu;
 			sourceTree = "<group>";
 		};
+		9A073E9C11C5EFE200C0AA72 /* Order Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A073E8211C5ECE600C0AA72 /* DRReceipt.h */,
+				9A073E8311C5ECE600C0AA72 /* DRReceipt.m */,
+				9A073E8511C5EDAA00C0AA72 /* DROrder.h */,
+				9A073E8611C5EDAA00C0AA72 /* DROrder.m */,
+				9A073E8A11C5EE2E00C0AA72 /* DROrderItem.h */,
+				9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */,
+				9A073E9911C5EFD700C0AA72 /* DROrderExtra.h */,
+				9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */,
+			);
+			name = "Order Data";
+			sourceTree = "<group>";
+		};
 		9A4A574411C29E6700B0A26F /* Restautant Picker */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,14 +233,16 @@
 		9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9A69D86311C1B14D008F40FA /* DRExtra.h */,
-				9A69D86411C1B14D008F40FA /* DRExtra.m */,
-				9A69D86511C1B14D008F40FA /* DRRestaurant.h */,
-				9A69D86611C1B14D008F40FA /* DRRestaurant.m */,
-				9A69D86711C1B14D008F40FA /* DRMenuItem.h */,
-				9A69D86811C1B14D008F40FA /* DRMenuItem.m */,
-				9A69D86911C1B14D008F40FA /* DRMenuSection.h */,
-				9A69D86A11C1B14D008F40FA /* DRMenuSection.m */,
+				9A073ED711C5F64200C0AA72 /* DRExtra.h */,
+				9A073ED811C5F64200C0AA72 /* DRExtra.m */,
+				9A073ED911C5F64200C0AA72 /* DRRestaurant.h */,
+				9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */,
+				9A073EDB11C5F64200C0AA72 /* DRMenuItem.h */,
+				9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */,
+				9A073EDD11C5F64200C0AA72 /* DRMenuItemExtraPair.h */,
+				9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */,
+				9A073EDF11C5F64200C0AA72 /* DRMenuSection.h */,
+				9A073EE011C5F64200C0AA72 /* DRMenuSection.m */,
 			);
 			name = "Data Model Classes";
 			sourceTree = "<group>";
@@ -226,20 +258,20 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		9AE135FD11C20487000D9275 /* Data */ = {
+		9AE135FD11C20487000D9275 /* Resaurant Data */ = {
 			isa = PBXGroup;
 			children = (
 				78BDDB2511C1B48D00FF833E /* DRDataManager.h */,
 				78BDDB2611C1B48D00FF833E /* DRDataManager.m */,
+				9AE24F6911C1A6AA006C7F8C /* Models */,
 				9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */,
 			);
-			name = Data;
+			name = "Resaurant Data";
 			sourceTree = "<group>";
 		};
 		9AE24F6211C1A6AA006C7F8C = {
 			isa = PBXGroup;
 			children = (
-				9AE24F6911C1A6AA006C7F8C /* Models */,
 				9AE24F6A11C1A6AA006C7F8C /* Classes */,
 				9AE24F6B11C1A6AA006C7F8C /* Other Sources */,
 				9AE24F6C11C1A6AA006C7F8C /* Resources */,
@@ -254,6 +286,7 @@
 				9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */,
 			);
 			name = Models;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		9AE24F6A11C1A6AA006C7F8C /* Classes */ = {
@@ -262,7 +295,8 @@
 				9AE24F8411C1A6AA006C7F8C /* DRAppDelegate.h */,
 				9AE24F8511C1A6AA006C7F8C /* DRAppDelegate.m */,
 				9AE135FC11C2047A000D9275 /* Views */,
-				9AE135FD11C20487000D9275 /* Data */,
+				9AE135FD11C20487000D9275 /* Resaurant Data */,
+				9A073E9C11C5EFE200C0AA72 /* Order Data */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -405,14 +439,19 @@
 				9AE24F8611C1A6AA006C7F8C /* DRAppDelegate.m in Sources */,
 				9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */,
 				7205319411C1B81C00435FA4 /* DRRestaurantPickerViewController.m in Sources */,
-				9A69D86B11C1B14D008F40FA /* DRExtra.m in Sources */,
-				9A69D86C11C1B14D008F40FA /* DRRestaurant.m in Sources */,
-				9A69D86D11C1B14D008F40FA /* DRMenuItem.m in Sources */,
-				9A69D86E11C1B14D008F40FA /* DRMenuSection.m in Sources */,
 				78BDDB2711C1B48D00FF833E /* DRDataManager.m in Sources */,
 				9AE1362D11C20A4C000D9275 /* DRRestaurantCell.m in Sources */,
 				9A4A57D011C2B04D00B0A26F /* DRReceiptSummaryViewController.m in Sources */,
 				9A4A57E911C2B11500B0A26F /* DRRootViewController.m in Sources */,
+				9A073E8411C5ECE600C0AA72 /* DRReceipt.m in Sources */,
+				9A073E8711C5EDAA00C0AA72 /* DROrder.m in Sources */,
+				9A073E8C11C5EE2E00C0AA72 /* DROrderItem.m in Sources */,
+				9A073E9B11C5EFD700C0AA72 /* DROrderExtra.m in Sources */,
+				9A073EE111C5F64200C0AA72 /* DRExtra.m in Sources */,
+				9A073EE211C5F64200C0AA72 /* DRRestaurant.m in Sources */,
+				9A073EE311C5F64200C0AA72 /* DRMenuItem.m in Sources */,
+				9A073EE411C5F64200C0AA72 /* DRMenuItemExtraPair.m in Sources */,
+				9A073EE511C5F64200C0AA72 /* DRMenuSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

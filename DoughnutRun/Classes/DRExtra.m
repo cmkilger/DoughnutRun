@@ -2,7 +2,7 @@
 //  DRExtra.m
 //  DoughnutRun
 //
-//  Created by Cory Kilger on 6/10/10.
+//  Created by Cory Kilger on 6/13/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
@@ -11,9 +11,8 @@
 
 @implementation DRExtra 
 
-@dynamic included;
+@dynamic identifier;
 @dynamic name;
-@dynamic cost;
-@dynamic item;
+@dynamic items;
 
 @end

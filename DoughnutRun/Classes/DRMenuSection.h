@@ -2,7 +2,7 @@
 //  DRMenuSection.h
 //  DoughnutRun
 //
-//  Created by Cory Kilger on 6/10/10.
+//  Created by Cory Kilger on 6/13/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
@@ -17,7 +17,7 @@
 
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet* items;
-@property (nonatomic, retain) DRRestaurant * restaurants;
+@property (nonatomic, retain) DRRestaurant * restaurant;
 
 @end
 
