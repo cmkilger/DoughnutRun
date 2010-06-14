@@ -13,11 +13,11 @@
 
 @synthesize items, person;
 
-- (id) init {
+- (id) initWithPerson:(NSString *)newPerson {
 	if (![super init])
 		return nil;
 	items = [[NSMutableArray alloc] init];
-	person = @"";
+	person = [newPerson copy];
 	return self;
 }
 

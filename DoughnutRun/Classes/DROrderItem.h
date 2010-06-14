@@ -14,6 +14,8 @@
 	NSMutableArray * extras;
 }
 
+- (id) initWithItemIdentifier:(NSInteger)itemIdentifier;
+
 @property (readonly) NSString * name;
 @property (readonly) NSArray * extras;
 

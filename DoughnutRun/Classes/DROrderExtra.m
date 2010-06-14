@@ -7,11 +7,22 @@
 //
 
 #import "DROrderExtra.h"
+#import "DRMenuItemExtraPair.h"
+#import "DRMenuExtra.h"
 
 
 @implementation DROrderExtra
 
 @synthesize name, cost, enabled;
+
+- (id) initWithMenuItemExtraPair:(DRMenuItemExtraPair *)menuItemExtraPair {
+	if (![super init])
+		return nil;
+	name = [menuItemExtraPair.extra.name copy];
+	cost = [menuItemExtraPair.cost floatValue];
+	enabled = [menuItemExtraPair.included boolValue];
+	return self;
+}
 
 -(void) dealloc {
 	[name release];

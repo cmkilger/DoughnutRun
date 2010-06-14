@@ -24,11 +24,11 @@
 		9A073E8711C5EDAA00C0AA72 /* DROrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E8611C5EDAA00C0AA72 /* DROrder.m */; };
 		9A073E8C11C5EE2E00C0AA72 /* DROrderItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */; };
 		9A073E9B11C5EFD700C0AA72 /* DROrderExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */; };
-		9A073EE111C5F64200C0AA72 /* DRExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073ED811C5F64200C0AA72 /* DRExtra.m */; };
-		9A073EE211C5F64200C0AA72 /* DRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */; };
-		9A073EE311C5F64200C0AA72 /* DRMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */; };
-		9A073EE411C5F64200C0AA72 /* DRMenuItemExtraPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */; };
-		9A073EE511C5F64200C0AA72 /* DRMenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073EE011C5F64200C0AA72 /* DRMenuSection.m */; };
+		9A073F4E11C67FFB00C0AA72 /* DRMenuExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073F4511C67FFB00C0AA72 /* DRMenuExtra.m */; };
+		9A073F4F11C67FFB00C0AA72 /* DRRestaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073F4711C67FFB00C0AA72 /* DRRestaurant.m */; };
+		9A073F5011C67FFB00C0AA72 /* DRMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073F4911C67FFB00C0AA72 /* DRMenuItem.m */; };
+		9A073F5111C67FFB00C0AA72 /* DRMenuItemExtraPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073F4B11C67FFB00C0AA72 /* DRMenuItemExtraPair.m */; };
+		9A073F5211C67FFB00C0AA72 /* DRMenuSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A073F4D11C67FFB00C0AA72 /* DRMenuSection.m */; };
 		9A4A57D011C2B04D00B0A26F /* DRReceiptSummaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */; };
 		9A4A57E911C2B11500B0A26F /* DRRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4A57E811C2B11500B0A26F /* DRRootViewController.m */; };
 		9A69D84311C1A7A1008F40FA /* DoughnutRun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A69D84211C1A7A1008F40FA /* DoughnutRun.xcdatamodel */; };
@@ -90,16 +90,16 @@
 		9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DROrderItem.m; sourceTree = "<group>"; };
 		9A073E9911C5EFD700C0AA72 /* DROrderExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DROrderExtra.h; sourceTree = "<group>"; };
 		9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DROrderExtra.m; sourceTree = "<group>"; };
-		9A073ED711C5F64200C0AA72 /* DRExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRExtra.h; sourceTree = "<group>"; };
-		9A073ED811C5F64200C0AA72 /* DRExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRExtra.m; sourceTree = "<group>"; };
-		9A073ED911C5F64200C0AA72 /* DRRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRestaurant.h; sourceTree = "<group>"; };
-		9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurant.m; sourceTree = "<group>"; };
-		9A073EDB11C5F64200C0AA72 /* DRMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItem.h; sourceTree = "<group>"; };
-		9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItem.m; sourceTree = "<group>"; };
-		9A073EDD11C5F64200C0AA72 /* DRMenuItemExtraPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItemExtraPair.h; sourceTree = "<group>"; };
-		9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItemExtraPair.m; sourceTree = "<group>"; };
-		9A073EDF11C5F64200C0AA72 /* DRMenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuSection.h; sourceTree = "<group>"; };
-		9A073EE011C5F64200C0AA72 /* DRMenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuSection.m; sourceTree = "<group>"; };
+		9A073F4411C67FFB00C0AA72 /* DRMenuExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuExtra.h; sourceTree = "<group>"; };
+		9A073F4511C67FFB00C0AA72 /* DRMenuExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuExtra.m; sourceTree = "<group>"; };
+		9A073F4611C67FFB00C0AA72 /* DRRestaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRestaurant.h; sourceTree = "<group>"; };
+		9A073F4711C67FFB00C0AA72 /* DRRestaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRRestaurant.m; sourceTree = "<group>"; };
+		9A073F4811C67FFB00C0AA72 /* DRMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItem.h; sourceTree = "<group>"; };
+		9A073F4911C67FFB00C0AA72 /* DRMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItem.m; sourceTree = "<group>"; };
+		9A073F4A11C67FFB00C0AA72 /* DRMenuItemExtraPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuItemExtraPair.h; sourceTree = "<group>"; };
+		9A073F4B11C67FFB00C0AA72 /* DRMenuItemExtraPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuItemExtraPair.m; sourceTree = "<group>"; };
+		9A073F4C11C67FFB00C0AA72 /* DRMenuSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRMenuSection.h; sourceTree = "<group>"; };
+		9A073F4D11C67FFB00C0AA72 /* DRMenuSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRMenuSection.m; sourceTree = "<group>"; };
 		9A4A57CE11C2B04D00B0A26F /* DRReceiptSummaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRReceiptSummaryViewController.h; sourceTree = "<group>"; };
 		9A4A57CF11C2B04D00B0A26F /* DRReceiptSummaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRReceiptSummaryViewController.m; sourceTree = "<group>"; };
 		9A4A57E711C2B11500B0A26F /* DRRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRRootViewController.h; sourceTree = "<group>"; };
@@ -233,16 +233,16 @@
 		9AB06C4D11C1B0F400DB9B18 /* Data Model Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9A073ED711C5F64200C0AA72 /* DRExtra.h */,
-				9A073ED811C5F64200C0AA72 /* DRExtra.m */,
-				9A073ED911C5F64200C0AA72 /* DRRestaurant.h */,
-				9A073EDA11C5F64200C0AA72 /* DRRestaurant.m */,
-				9A073EDB11C5F64200C0AA72 /* DRMenuItem.h */,
-				9A073EDC11C5F64200C0AA72 /* DRMenuItem.m */,
-				9A073EDD11C5F64200C0AA72 /* DRMenuItemExtraPair.h */,
-				9A073EDE11C5F64200C0AA72 /* DRMenuItemExtraPair.m */,
-				9A073EDF11C5F64200C0AA72 /* DRMenuSection.h */,
-				9A073EE011C5F64200C0AA72 /* DRMenuSection.m */,
+				9A073F4411C67FFB00C0AA72 /* DRMenuExtra.h */,
+				9A073F4511C67FFB00C0AA72 /* DRMenuExtra.m */,
+				9A073F4611C67FFB00C0AA72 /* DRRestaurant.h */,
+				9A073F4711C67FFB00C0AA72 /* DRRestaurant.m */,
+				9A073F4811C67FFB00C0AA72 /* DRMenuItem.h */,
+				9A073F4911C67FFB00C0AA72 /* DRMenuItem.m */,
+				9A073F4A11C67FFB00C0AA72 /* DRMenuItemExtraPair.h */,
+				9A073F4B11C67FFB00C0AA72 /* DRMenuItemExtraPair.m */,
+				9A073F4C11C67FFB00C0AA72 /* DRMenuSection.h */,
+				9A073F4D11C67FFB00C0AA72 /* DRMenuSection.m */,
 			);
 			name = "Data Model Classes";
 			sourceTree = "<group>";
@@ -447,11 +447,11 @@
 				9A073E8711C5EDAA00C0AA72 /* DROrder.m in Sources */,
 				9A073E8C11C5EE2E00C0AA72 /* DROrderItem.m in Sources */,
 				9A073E9B11C5EFD700C0AA72 /* DROrderExtra.m in Sources */,
-				9A073EE111C5F64200C0AA72 /* DRExtra.m in Sources */,
-				9A073EE211C5F64200C0AA72 /* DRRestaurant.m in Sources */,
-				9A073EE311C5F64200C0AA72 /* DRMenuItem.m in Sources */,
-				9A073EE411C5F64200C0AA72 /* DRMenuItemExtraPair.m in Sources */,
-				9A073EE511C5F64200C0AA72 /* DRMenuSection.m in Sources */,
+				9A073F4E11C67FFB00C0AA72 /* DRMenuExtra.m in Sources */,
+				9A073F4F11C67FFB00C0AA72 /* DRRestaurant.m in Sources */,
+				9A073F5011C67FFB00C0AA72 /* DRMenuItem.m in Sources */,
+				9A073F5111C67FFB00C0AA72 /* DRMenuItemExtraPair.m in Sources */,
+				9A073F5211C67FFB00C0AA72 /* DRMenuSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

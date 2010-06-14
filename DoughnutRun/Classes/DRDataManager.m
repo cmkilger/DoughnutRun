@@ -9,6 +9,7 @@
 #import "DRDataManager.h"
 #import "CJSONDeserializer.h"
 #import "DRRestaurant.h"
+#import "DRMenuItem.h"
 
 #define CoreDataDatabaseFile @"DoughnutRun.sqlite"
 
@@ -162,7 +163,25 @@
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
+#pragma mark -
 
+- (id) objectWithEntityName:(NSString *)entityName identifier:(NSInteger)identifier {
+	NSManagedObjectContext * context = [[NSManagedObjectContext alloc] init];
+	[context setPersistentStoreCoordinator:[self persistentStoreCoordinator]];
+	NSFetchRequest * request = [[NSFetchRequest alloc] init];
+	[request setEntity:[NSEntityDescription entityForName:entityName inManagedObjectContext:context]];
+	[request setPredicate:[NSPredicate predicateWithFormat:@"identifier == %d", identifier]];
+	NSError * error = nil;
+	NSArray * results = [context executeFetchRequest:request error:&error];
+	[request release];
+	[context release];
+	if (error)
+		NSLog(@"ERROR: %@", [error localizedDescription]);
+	return [results lastObject];
+}
+
+#pragma mark -
+#pragma mark Memory Management
 
 -(void)dealloc {
     [managedObjectModel release];

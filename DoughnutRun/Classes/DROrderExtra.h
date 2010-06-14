@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 
+@class DRMenuItemExtraPair;
+
 @interface DROrderExtra : NSObject <NSCoding> {
 	NSString * name;
 	float cost;
@@ -18,5 +20,7 @@
 @property (readonly) NSString * name;
 @property (readonly) float cost;
 @property (assign, getter=isEnabled) BOOL enabled;
+
+- (id) initWithMenuItemExtraPair:(DRMenuItemExtraPair *)menuItemExtraPair;
 
 @end

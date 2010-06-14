@@ -24,4 +24,6 @@
 - (NSString *) applicationDocumentsDirectory;
 - (void) saveChanges;
 
+- (id) objectWithEntityName:(NSString *)entityName identifier:(NSInteger)identifier;
+
 @end

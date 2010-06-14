@@ -2,7 +2,7 @@
 //  DRRestaurant.h
 //  DoughnutRun
 //
-//  Created by Cory Kilger on 6/13/10.
+//  Created by Cory Kilger on 6/14/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
@@ -14,9 +14,10 @@
 {
 }
 
-@property (nonatomic, retain) NSString * menuFile;
 @property (nonatomic, retain) NSString * phone;
 @property (nonatomic, retain) NSString * imageFile;
+@property (nonatomic, retain) NSString * menuFile;
+@property (nonatomic, retain) NSNumber * identifier;
 @property (nonatomic, retain) NSNumber * version;
 @property (nonatomic, retain) NSString * name;
 @property (nonatomic, retain) NSSet* menu;

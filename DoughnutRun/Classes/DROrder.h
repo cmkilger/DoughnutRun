@@ -19,6 +19,8 @@
 @property (copy) NSString * person;
 @property (readonly) NSArray * items;
 
+- (id) initWithPerson:(NSString *)person;
+
 - (void) addItem:(DROrderItem *)item;
 - (void) removeItem:(DROrderItem *)item;
 

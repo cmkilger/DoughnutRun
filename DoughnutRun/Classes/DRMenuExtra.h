@@ -2,14 +2,15 @@
 //  DRExtra.h
 //  DoughnutRun
 //
-//  Created by Cory Kilger on 6/13/10.
+//  Created by Cory Kilger on 6/14/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
 #import <CoreData/CoreData.h>
 
+@class DRMenuItemExtraPair;
 
-@interface DRExtra :  NSManagedObject  
+@interface DRMenuExtra :  NSManagedObject  
 {
 }
 
@@ -20,9 +21,9 @@
 @end
 
 
-@interface DRExtra (CoreDataGeneratedAccessors)
-- (void)addItemsObject:(NSManagedObject *)value;
-- (void)removeItemsObject:(NSManagedObject *)value;
+@interface DRMenuExtra (CoreDataGeneratedAccessors)
+- (void)addItemsObject:(DRMenuItemExtraPair *)value;
+- (void)removeItemsObject:(DRMenuItemExtraPair *)value;
 - (void)addItems:(NSSet *)value;
 - (void)removeItems:(NSSet *)value;
 

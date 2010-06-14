@@ -7,11 +7,32 @@
 //
 
 #import "DROrderItem.h"
+#import "DROrderExtra.h"
+#import "DRDataManager.h"
+#import "DRMenuItem.h"
+#import "DRMenuExtra.h"
+#import "DRMenuItemExtraPair.h"
 
 
 @implementation DROrderItem
 
 @synthesize name, extras;
+
+- (id) initWithItemIdentifier:(NSInteger)itemIdentifier {
+	if (![super init])
+		return nil;
+	
+	DRMenuItem * menuItem = [[DRDataManager sharedDataManager] objectWithEntityName:@"MenuItem" identifier:itemIdentifier];
+	name = [menuItem.name copy];
+	extras = [[NSMutableArray alloc] init];
+	for (DRMenuItemExtraPair * menuItemExtraPair in menuItem.extras) {
+		DROrderExtra * extra = [[DROrderExtra alloc] initWithMenuItemExtraPair:menuItemExtraPair];
+		[extras addObject:extra];
+		[extra release];
+	}
+	
+	return self;
+}
 
 -(void) dealloc {
 	[name release];

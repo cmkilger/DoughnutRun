@@ -16,23 +16,23 @@
 	};
 	7205319311C1B81C00435FA4 /* DRRestaurantPickerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1394, 2015}}";
-			sepNavSelRange = "{3285, 0}";
-			sepNavVisRange = "{2144, 2678}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 2197}}";
+			sepNavSelRange = "{3286, 2}";
+			sepNavVisRange = "{1976, 3141}";
 		};
 	};
 	78BDDB2511C1B48D00FF833E /* DRDataManager.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1547, 728}}";
-			sepNavSelRange = "{646, 0}";
-			sepNavVisRange = "{0, 755}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{809, 0}";
+			sepNavVisRange = "{0, 816}";
 		};
 	};
 	78BDDB2611C1B48D00FF833E /* DRDataManager.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {899, 2093}}";
-			sepNavSelRange = "{2758, 0}";
-			sepNavVisRange = "{1368, 1516}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 2548}}";
+			sepNavSelRange = "{6012, 83}";
+			sepNavVisRange = "{4267, 2666}";
 		};
 	};
 	9A073E1911C5CC3C00C0AA72 /* PBXTextBookmark */ = {
@@ -77,65 +77,86 @@
 	};
 	9A073E8211C5ECE600C0AA72 /* DRReceipt.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{244, 39}";
-			sepNavVisRange = "{0, 289}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{437, 82}";
+			sepNavVisRange = "{0, 602}";
 		};
 	};
 	9A073E8311C5ECE600C0AA72 /* DRReceipt.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{204, 0}";
-			sepNavVisRange = "{0, 504}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{560, 0}";
+			sepNavVisRange = "{0, 1134}";
 		};
 	};
 	9A073E8511C5EDAA00C0AA72 /* DROrder.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{289, 0}";
-			sepNavVisRange = "{0, 339}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{396, 0}";
+			sepNavVisRange = "{0, 483}";
 		};
 	};
 	9A073E8611C5EDAA00C0AA72 /* DROrder.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{440, 0}";
-			sepNavVisRange = "{0, 591}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 1024}";
 		};
 	};
 	9A073E8A11C5EE2E00C0AA72 /* DROrderItem.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{373, 20}";
-			sepNavVisRange = "{0, 514}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{264, 58}";
+			sepNavVisRange = "{0, 407}";
 		};
 	};
 	9A073E8B11C5EE2E00C0AA72 /* DROrderItem.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{202, 0}";
-			sepNavVisRange = "{0, 463}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{438, 121}";
+			sepNavVisRange = "{0, 1456}";
 		};
 	};
 	9A073E9911C5EFD700C0AA72 /* DROrderExtra.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{229, 0}";
-			sepNavVisRange = "{0, 230}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{321, 0}";
+			sepNavVisRange = "{0, 392}";
 		};
 	};
 	9A073E9A11C5EFD700C0AA72 /* DROrderExtra.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1518, 750}}";
-			sepNavSelRange = "{192, 38}";
-			sepNavVisRange = "{0, 381}";
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{636, 0}";
+			sepNavVisRange = "{0, 755}";
 		};
 	};
-	9A073ED711C5F64200C0AA72 /* DRExtra.h */ = {
+	9A073F4411C67FFB00C0AA72 /* DRMenuExtra.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
-			sepNavSelRange = "{208, 0}";
-			sepNavVisRange = "{0, 633}";
+			sepNavSelRange = "{578, 0}";
+			sepNavVisRange = "{0, 622}";
+		};
+	};
+	9A073F4611C67FFB00C0AA72 /* DRRestaurant.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 815}";
+		};
+	};
+	9A073F4811C67FFB00C0AA72 /* DRMenuItem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{562, 0}";
+			sepNavVisRange = "{0, 810}";
+		};
+	};
+	9A073F4911C67FFB00C0AA72 /* DRMenuItem.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1518, 875}}";
+			sepNavSelRange = "{358, 0}";
+			sepNavVisRange = "{0, 358}";
 		};
 	};
 	9A4A57CE11C2B04D00B0A26F /* DRReceiptSummaryViewController.h */ = {
@@ -208,7 +229,7 @@
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
 					_indexOfSelectedPane = 0;
-					_indexOfSelectedView = 1;
+					_indexOfSelectedView = 0;
 				};
 				UIContextForEntityArea = {
 					_indexOfSelectedView = 0;
@@ -239,8 +260,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {1030, 218}}",
-							"{{1035, 0}, {542, 218}}",
+							"{{0, 0}, {1030, 220}}",
+							"{{1035, 0}, {542, 220}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -448,7 +469,7 @@
 		rLen = 0;
 		rLoc = 646;
 		rType = 0;
-		vrLen = 755;
+		vrLen = 730;
 		vrLoc = 0;
 	};
 	9AE1362B11C20A4C000D9275 /* DRRestaurantCell.h */ = {

@@ -11,7 +11,16 @@
 
 @implementation DRReceipt
 
-@synthesize name, orders;
+@synthesize name, restaurantIdentifier, orders;
+
+- (id) initWithName:(NSString *)newName restaurant:(NSInteger)newRestaurantIdentifier {
+	if (![super init])
+		return nil;
+	name = [newName copy];
+	restaurantIdentifier = newRestaurantIdentifier;
+	orders = [[NSMutableArray alloc] init];
+	return self;
+}
 
 -(void) dealloc {
 	[name release];

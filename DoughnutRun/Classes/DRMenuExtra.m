@@ -2,14 +2,15 @@
 //  DRExtra.m
 //  DoughnutRun
 //
-//  Created by Cory Kilger on 6/13/10.
+//  Created by Cory Kilger on 6/14/10.
 //  Copyright 2010 Cory Kilger. All rights reserved.
 //
 
-#import "DRExtra.h"
+#import "DRMenuExtra.h"
 
+#import "DRMenuItemExtraPair.h"
 
-@implementation DRExtra 
+@implementation DRMenuExtra 
 
 @dynamic identifier;
 @dynamic name;
